@@ -1,0 +1,2124 @@
+# Translation of cervisia into Japanese.
+# This file is distributed under the same license as the kdesdk package.
+# Taiki Komoda <kom@kde.gr.jp>, 2002,2003.
+# SATOH Satoru <ss@kde.gr.jp>, 2004.
+# Toyohiro Asukai <toyohiro@ksmplus.com>, 2004.
+# Fumiaki Okushi <okushi@kde.gr.jp>, 2006, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: cervisia\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:11+0200\n"
+"PO-Revision-Date: 2011-04-08 20:43-0700\n"
+"Last-Translator: Fumiaki Okushi <okushi@kde.gr.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Noboru Sinohara,SATOH Satoru,Shinya TAKEBAYASHI"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shinobo@leo.bekkoame.ne.jp,ss@kde.gr.jp,makoto@kanon-net.jp"
+
+#: addignoremenu.cpp:38
+#, kde-format
+msgid "Add to Ignore List"
+msgstr "無視リストに追加"
+
+#: addignoremenu.cpp:77
+#, kde-format
+msgid "Ignore File"
+msgid_plural "Ignore %1 Files"
+msgstr[0] "ファイルを無視"
+msgstr[1] "%1 ファイルを無視"
+
+#: addignoremenu.cpp:103
+#, kde-format
+msgid "Cannot open file '%1' for writing."
+msgstr "ファイル ‘%1’ を書き込みのために開けませんでした。"
+
+#: addremovedialog.cpp:43
+#, kde-format
+msgid "CVS Add"
+msgstr "CVS 追加"
+
+#: addremovedialog.cpp:44
+#, kde-format
+msgid "CVS Add Binary"
+msgstr "CVS バイナリ追加"
+
+#: addremovedialog.cpp:45
+#, kde-format
+msgid "CVS Remove"
+msgstr "CVS 削除"
+
+#: addremovedialog.cpp:65
+#, kde-format
+msgid "Add the following files to the repository:"
+msgstr "以下のファイルをリポジトリに追加:"
+
+#: addremovedialog.cpp:66
+#, kde-format
+msgid "Add the following binary files to the repository:"
+msgstr "以下のバイナリファイルをリポジトリに追加:"
+
+#: addremovedialog.cpp:67
+#, kde-format
+msgid "Remove the following files from the repository:"
+msgstr "以下のファイルをリポジトリから削除:"
+
+#: addremovedialog.cpp:80
+#, kde-format
+msgid "This will also remove the files from your local working copy."
+msgstr "これはローカルの作業コピーのファイルも削除します。"
+
+#: addrepositorydialog.cpp:42
+#, kde-format
+msgid "Add Repository"
+msgstr "リポジトリに追加"
+
+#: addrepositorydialog.cpp:55 checkoutdialog.cpp:89
+#, kde-format
+msgid "&Repository:"
+msgstr "リポジトリ(&R):"
+
+# |,no-bad-patterns
+#: addrepositorydialog.cpp:70
+#, kde-format
+msgid "Use remote &shell (only for :ext: repositories):"
+msgstr "リモートシェルを使う(&S) (外部 :ext: リポジトリに対してのみ):"
+
+#: addrepositorydialog.cpp:79
+#, kde-format
+msgid "Invoke this program on the server side:"
+msgstr "プログラムをサーバで実行:"
+
+#: addrepositorydialog.cpp:89
+#, kde-format
+msgid "Use different &compression level:"
+msgstr "異なる圧縮レベルを使う(&C):"
+
+#: addrepositorydialog.cpp:97
+#, kde-format
+msgid "Download cvsignore file from server"
+msgstr "サーバから cvsignore ファイルをダウンロードします"
+
+#: addrepositorydialog.cpp:191
+#, kde-format
+msgid "Repository Settings"
+msgstr "リポジトリ設定"
+
+#: annotatecontroller.cpp:81
+#, kde-format
+msgid "CVS Annotate: %1"
+msgstr "CVS 注釈: %1"
+
+#: annotatecontroller.cpp:92
+#, kde-format
+msgid "CVS Annotate"
+msgstr "CVS 注釈"
+
+#: annotatedialog.cpp:45
+#, kde-format
+msgid "Go to Line..."
+msgstr "行に移動..."
+
+#: annotatedialog.cpp:50
+#, kde-format
+msgid "Find Prev"
+msgstr "前を検索"
+
+#: annotatedialog.cpp:55
+#, kde-format
+msgid "Find Next"
+msgstr "次を検索"
+
+#: annotatedialog.cpp:65
+#, kde-format
+msgid "Search"
+msgstr "検索"
+
+#: annotatedialog.cpp:120
+#, kde-format
+msgid "Go to Line"
+msgstr "行に移動"
+
+#: annotatedialog.cpp:120
+#, kde-format
+msgid "Go to line number:"
+msgstr "行番号に移動:"
+
+#: cervisiapart.cpp:114 main.cpp:143
+#, kde-format
+msgid "Cervisia"
+msgstr "Cervisia"
+
+#: cervisiapart.cpp:122
+#, kde-format
+msgid "Starting cvsservice failed with message: "
+msgstr "cvsservice の起動に失敗しました: "
+
+#: cervisiapart.cpp:158
+#, kde-format
+msgid ""
+"This KPart is non-functional, because the cvs D-Bus service could not be "
+"started."
+msgstr "CVS D-Bus サービスを開始できなかったため、KPart は機能しません。"
+
+#: cervisiapart.cpp:199
+#, kde-format
+msgid "Remote CVS working folders are not supported."
+msgstr "リモート CVS 作業フォルダは未サポートです"
+
+#: cervisiapart.cpp:208
+#, kde-format
+msgid ""
+"You cannot change to a different folder while there is a running cvs job."
+msgstr "CVS ジョブを実行中に別フォルダに変更することはできません"
+
+#: cervisiapart.cpp:229
+#, kde-format
+msgid ""
+"F - All files are hidden, the tree shows only folders\n"
+"N - All up-to-date files are hidden\n"
+"R - All removed files are hidden"
+msgstr ""
+"F - すべてのファイルは隠し、ツリーにフォルダのみ表示\n"
+"N - すべての最新ファイルを隠す\n"
+"R - すべての削除ファイルを隠す"
+
+#: cervisiapart.cpp:242
+#, fuzzy, kde-format
+#| msgid "O&pen Sandbox..."
+msgid "Open Sandbox..."
+msgstr "サンドボックスを開く(&P)..."
+
+#: cervisiapart.cpp:246
+#, kde-format
+msgid "Opens a CVS working folder in the main window"
+msgstr "メインウィンドウに CVS 作業フォルダを開く"
+
+#: cervisiapart.cpp:250
+#, kde-format
+msgid "Recent Sandboxes"
+msgstr "最近のサンドボックス"
+
+#: cervisiapart.cpp:254
+#, kde-format
+msgid "&Insert ChangeLog Entry..."
+msgstr "変更履歴エントリを挿入(&I)..."
+
+#: cervisiapart.cpp:257
+#, kde-format
+msgid "Inserts a new intro into the file ChangeLog in the toplevel folder"
+msgstr "トップレベルフォルダの ChangeLog に新しいエントリを挿入"
+
+#: cervisiapart.cpp:261
+#, kde-format
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: cervisiapart.cpp:265
+#, kde-format
+msgid "Updates (cvs update) the selected files and folders"
+msgstr "選択ファイル/フォルダを更新 (cvs update)"
+
+#: cervisiapart.cpp:269
+#, kde-format
+msgid "&Status"
+msgstr "ステータス(&S)"
+
+#: cervisiapart.cpp:273
+#, kde-format
+msgid "Updates the status (cvs -n update) of the selected files and folders"
+msgstr "選択ファイル/フォルダのステータスを更新 (cvs -n update)"
+
+#: cervisiapart.cpp:277 resolvedialog.cpp:183
+#, kde-format
+msgid "&Edit"
+msgstr "編集(&E)"
+
+#: cervisiapart.cpp:280
+#, kde-format
+msgid "Opens the marked file for editing"
+msgstr "マークしたファイルを編集用に開く"
+
+#: cervisiapart.cpp:284
+#, kde-format
+msgid "Reso&lve..."
+msgstr "リゾルブ(&L)..."
+
+#: cervisiapart.cpp:287
+#, kde-format
+msgid "Opens the resolve dialog with the selected file"
+msgstr "選択されたファイルのリゾルブダイアログを開く"
+
+#: cervisiapart.cpp:291
+#, kde-format
+msgid "&Commit..."
+msgstr "コミット(&C)..."
+
+#: cervisiapart.cpp:295
+#, kde-format
+msgid "Commits the selected files"
+msgstr "選択されたファイルをコミットする"
+
+#: cervisiapart.cpp:299
+#, kde-format
+msgid "&Add to Repository..."
+msgstr "リポジトリに追加(&A)..."
+
+#: cervisiapart.cpp:302
+#, kde-format
+msgid "Add"
+msgstr "追加"
+
+#: cervisiapart.cpp:304
+#, kde-format
+msgid "Adds (cvs add) the selected files to the repository"
+msgstr "選択されたファイルやディレクトリを追加 (cvs add)"
+
+#: cervisiapart.cpp:308
+#, kde-format
+msgid "Add &Binary..."
+msgstr "バイナリを追加(&B)..."
+
+#: cervisiapart.cpp:311
+#, kde-format
+msgid "Adds (cvs -kb add) the selected files as binaries to the repository"
+msgstr "選択されたファイルをバイナリとしてリポジトリに追加 (cvs -kb add)"
+
+#: cervisiapart.cpp:315
+#, kde-format
+msgid "&Remove From Repository..."
+msgstr "リポジトリから削除(&R)..."
+
+#: cervisiapart.cpp:318 repositorydialog.cpp:205
+#, kde-format
+msgid "Remove"
+msgstr "削除"
+
+#: cervisiapart.cpp:320
+#, kde-format
+msgid "Removes (cvs remove) the selected files from the repository"
+msgstr "選択されたファイルをリポジトリから削除 (cvs remove)"
+
+#: cervisiapart.cpp:324
+#, kde-format
+msgid "Rever&t"
+msgstr "元に戻す(&T)"
+
+#: cervisiapart.cpp:327
+#, kde-format
+msgid "Reverts (cvs update -C) the selected files (only cvs 1.11)"
+msgstr "選択されたファイルを元に戻す (cvs update -C) (cvs 1.11 のみ有効)"
+
+#: cervisiapart.cpp:331
+#, kde-format
+msgid "&Properties"
+msgstr "プロパティ(&P)"
+
+#: cervisiapart.cpp:338
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: cervisiapart.cpp:343
+#, kde-format
+msgid "Stops any running sub-processes"
+msgstr "すべての実行中のサブプロセスを中止"
+
+#: cervisiapart.cpp:348
+#, kde-format
+msgid "Browse &Log..."
+msgstr "ログを参照(&L)..."
+
+#: cervisiapart.cpp:352
+#, kde-format
+msgid "Shows the revision tree of the selected file"
+msgstr "選択されたファイルのリビジョンツリーを表示"
+
+#: cervisiapart.cpp:357
+#, kde-format
+msgid "Browse Multi-File Log..."
+msgstr "複数のファイルのログを参照..."
+
+#: cervisiapart.cpp:361
+#, kde-format
+msgid "&Annotate..."
+msgstr "注釈(&A)..."
+
+#: cervisiapart.cpp:365
+#, kde-format
+msgid "Shows a blame-annotated view of the selected file"
+msgstr "選択されたファイルについての注釈ビューを表示"
+
+#: cervisiapart.cpp:369
+#, kde-format
+msgid "&Difference to Repository (BASE)..."
+msgstr "リポジトリ (BASE) との差分(&D)..."
+
+#: cervisiapart.cpp:373
+#, kde-format
+msgid ""
+"Shows the differences of the selected file to the checked out version (tag "
+"BASE)"
+msgstr "選択ファイルのチェックアウトバージョン (tag: BASE) との差分を表示"
+
+#: cervisiapart.cpp:377
+#, kde-format
+msgid "Difference to Repository (HEAD)..."
+msgstr "リポジトリ (HEAD) との差分..."
+
+#: cervisiapart.cpp:381
+#, kde-format
+msgid ""
+"Shows the differences of the selected file to the newest version in the "
+"repository (tag HEAD)"
+msgstr "選択ファイルのチェックアウトバージョン (tag: HEAD) との差分を表示"
+
+#: cervisiapart.cpp:385
+#, kde-format
+msgid "Last &Change..."
+msgstr "最後の変更(&C)..."
+
+#: cervisiapart.cpp:388
+#, kde-format
+msgid ""
+"Shows the differences between the last two revisions of the selected file"
+msgstr "選択されたファイルについて、最後の二つの版の差異を表示"
+
+#: cervisiapart.cpp:392
+#, kde-format
+msgid "&History..."
+msgstr "履歴(&H)..."
+
+#: cervisiapart.cpp:395
+#, kde-format
+msgid "Shows the CVS history as reported by the server"
+msgstr "サーバから報告された CVS 履歴を表示"
+
+#: cervisiapart.cpp:399
+#, kde-format
+msgid "&Unfold File Tree"
+msgstr "ファイルツリーを展開(&U)"
+
+#: cervisiapart.cpp:403
+#, kde-format
+msgid "Opens all branches of the file tree"
+msgstr "ファイルツリーのすべてのブランチを開く"
+
+#: cervisiapart.cpp:407
+#, kde-format
+msgid "&Fold File Tree"
+msgstr "ファイルツリーをたたむ(&F)"
+
+#: cervisiapart.cpp:410
+#, kde-format
+msgid "Closes all branches of the file tree"
+msgstr "ファイルツリーのすべてのブランチを閉鎖します。"
+
+#: cervisiapart.cpp:417
+#, kde-format
+msgid "&Tag/Branch..."
+msgstr "タグ/ブランチ(&T)..."
+
+#: cervisiapart.cpp:420
+#, kde-format
+msgid "Creates a tag or branch for the selected files"
+msgstr "選択されたファイルへのタグまたは、ブランチを作る"
+
+#: cervisiapart.cpp:424
+#, kde-format
+msgid "&Delete Tag..."
+msgstr "タグを削除(&D)..."
+
+#: cervisiapart.cpp:427
+#, kde-format
+msgid "Deletes a tag from the selected files"
+msgstr "選択されたファイルからタグを削除"
+
+#: cervisiapart.cpp:431
+#, kde-format
+msgid "&Update to Tag/Date..."
+msgstr "タグ/日付の更新(&U)..."
+
+#: cervisiapart.cpp:434
+#, kde-format
+msgid "Updates the selected files to a given tag, branch or date"
+msgstr "選択されたファイルからタグ、ブランチまたは日付によって更新"
+
+#: cervisiapart.cpp:438
+#, kde-format
+msgid "Update to &HEAD"
+msgstr "先頭に更新(&H)"
+
+#: cervisiapart.cpp:441
+#, kde-format
+msgid "Updates the selected files to the HEAD revision"
+msgstr "選択されたファイルを HEAD 版に更新"
+
+#: cervisiapart.cpp:445
+#, kde-format
+msgid "&Merge..."
+msgstr "マージ(&M)..."
+
+#: cervisiapart.cpp:448
+#, kde-format
+msgid "Merges a branch or a set of modifications into the selected files"
+msgstr "ブランチまたは変更のセットを選択されたファイルにマージ"
+
+#: cervisiapart.cpp:452
+#, kde-format
+msgid "&Add Watch..."
+msgstr "ウォッチ対象を追加(&A)..."
+
+#: cervisiapart.cpp:455
+#, kde-format
+msgid "Adds a watch for the selected files"
+msgstr "選択されたファイルのウォッチ対象の追加"
+
+#: cervisiapart.cpp:459
+#, kde-format
+msgid "&Remove Watch..."
+msgstr "ウォッチ対象を削除(&R)..."
+
+#: cervisiapart.cpp:462
+#, kde-format
+msgid "Removes a watch from the selected files"
+msgstr "選択されたファイルのウォッチ対象を削除"
+
+#: cervisiapart.cpp:466
+#, kde-format
+msgid "Show &Watchers"
+msgstr "ウォッチしているユーザを表示(&W)"
+
+#: cervisiapart.cpp:469
+#, kde-format
+msgid "Shows the watchers of the selected files"
+msgstr "選択されたファイルをウォッチしているユーザを表示"
+
+#: cervisiapart.cpp:473
+#, kde-format
+msgid "Ed&it Files"
+msgstr "ファイルを編集(&I)"
+
+#: cervisiapart.cpp:476
+#, kde-format
+msgid "Edits (cvs edit) the selected files"
+msgstr "選択されたファイルを編集 (cvs edit)"
+
+#: cervisiapart.cpp:480
+#, kde-format
+msgid "U&nedit Files"
+msgstr "ファイルを元に戻す(&N)"
+
+#: cervisiapart.cpp:483
+#, kde-format
+msgid "Unedits (cvs unedit) the selected files"
+msgstr "選択されたファイルを編集前の状態に戻す (cvs unedit)"
+
+#: cervisiapart.cpp:487
+#, kde-format
+msgid "Show &Editors"
+msgstr "編集者を表示(&E)"
+
+#: cervisiapart.cpp:490
+#, kde-format
+msgid "Shows the editors of the selected files"
+msgstr "選択されたファイルの編集者を表示"
+
+#: cervisiapart.cpp:494
+#, kde-format
+msgid "&Lock Files"
+msgstr "ファイルをロック(&L)"
+
+#: cervisiapart.cpp:497
+#, kde-format
+msgid "Locks the selected files, so that others cannot modify them"
+msgstr "選択されたファイルをロックします。他のユーザは変更できなくなります。"
+
+#: cervisiapart.cpp:501
+#, kde-format
+msgid "Unl&ock Files"
+msgstr "ファイルのロックを解除(&O)"
+
+#: cervisiapart.cpp:504
+#, kde-format
+msgid "Unlocks the selected files"
+msgstr "選択されたファイルのロックを解除します。"
+
+#: cervisiapart.cpp:508
+#, kde-format
+msgid "Create &Patch Against Repository..."
+msgstr "リポジトリに対しパッチを作成する(&P)..."
+
+#: cervisiapart.cpp:511
+#, kde-format
+msgid "Creates a patch from the modifications in your sandbox"
+msgstr "あなたのサンドボックス内の変更からパッチを作成します。"
+
+#: cervisiapart.cpp:518
+#, kde-format
+msgid "&Create..."
+msgstr "作成(&C)..."
+
+#: cervisiapart.cpp:522
+#, kde-format
+msgid "&Checkout..."
+msgstr "チェックアウト(&C)..."
+
+#: cervisiapart.cpp:525
+#, kde-format
+msgid "Allows you to checkout a module from a repository"
+msgstr "リポジトリからモジュールのチェックアウトを許可します。"
+
+#: cervisiapart.cpp:529
+#, kde-format
+msgid "&Import..."
+msgstr "インポート(&I)..."
+
+#: cervisiapart.cpp:532
+#, kde-format
+msgid "Allows you to import a module into a repository"
+msgstr "リポジトリへのモジュールのインポートを許可します"
+
+#: cervisiapart.cpp:536
+#, kde-format
+msgid "&Repositories..."
+msgstr "リポジトリ(&R)..."
+
+#: cervisiapart.cpp:539
+#, kde-format
+msgid "Configures a list of repositories you regularly use"
+msgstr "通常使うリポジトリのリストを設定します"
+
+#: cervisiapart.cpp:546
+#, kde-format
+msgid "Hide All &Files"
+msgstr "すべてのファイルを隠す(&F)"
+
+#: cervisiapart.cpp:549
+#, kde-format
+msgid "Determines whether only folders are shown"
+msgstr "フォルダのみ表示するかどうか決定"
+
+#: cervisiapart.cpp:553
+#, kde-format
+msgid "Hide Unmodified Files"
+msgstr "未変更ファイルを隠します"
+
+#: cervisiapart.cpp:556
+#, kde-format
+msgid "Determines whether files with status up-to-date or unknown are hidden"
+msgstr "最新状態または、未知のファイルを隠すかどうかを指定します。"
+
+#: cervisiapart.cpp:561
+#, kde-format
+msgid "Hide Removed Files"
+msgstr "削除されたファイルを隠す"
+
+#: cervisiapart.cpp:564
+#, kde-format
+msgid "Determines whether removed files are hidden"
+msgstr "削除されたファイルを隠すかどうかを指定します。"
+
+#: cervisiapart.cpp:568
+#, kde-format
+msgid "Hide Non-CVS Files"
+msgstr "CVS ファイルでないものは隠す"
+
+#: cervisiapart.cpp:571
+#, kde-format
+msgid "Determines whether files not in CVS are hidden"
+msgstr "CVS にないファイルを隠すかどうかを指定します。"
+
+#: cervisiapart.cpp:575
+#, kde-format
+msgid "Hide Empty Folders"
+msgstr "空のフォルダを隠す"
+
+#: cervisiapart.cpp:578
+#, kde-format
+msgid "Determines whether folders without visible entries are hidden"
+msgstr "可視エントリのないフォルダを隠すかどうか決定"
+
+#: cervisiapart.cpp:582
+#, kde-format
+msgid "Create &Folders on Update"
+msgstr "更新時にフォルダを作成(&F)"
+
+#: cervisiapart.cpp:585
+#, kde-format
+msgid "Determines whether updates create folders"
+msgstr "更新時にフォルダを作成するかどうか決定"
+
+#: cervisiapart.cpp:589
+#, kde-format
+msgid "&Prune Empty Folders on Update"
+msgstr "更新時に空のフォルダを消す(&P)"
+
+#: cervisiapart.cpp:592
+#, kde-format
+msgid "Determines whether updates remove empty folders"
+msgstr "更新時に空のフォルダを消すかどうかを決定"
+
+#: cervisiapart.cpp:596
+#, kde-format
+msgid "&Update Recursively"
+msgstr "再帰的に更新(&U)"
+
+#: cervisiapart.cpp:599
+#, kde-format
+msgid "Determines whether updates are recursive"
+msgstr "更新を再帰的に行うかを指定します"
+
+#: cervisiapart.cpp:603
+#, kde-format
+msgid "C&ommit && Remove Recursively"
+msgstr "コミットと削除を再帰的に行う(&O)"
+
+#: cervisiapart.cpp:606
+#, kde-format
+msgid "Determines whether commits and removes are recursive"
+msgstr "コミットを削除を再帰的に行うかどうかを指定します。"
+
+#: cervisiapart.cpp:610
+#, kde-format
+msgid "Do cvs &edit Automatically When Necessary"
+msgstr "必要なときに自動的に cvs edit を実行する(&E)"
+
+#: cervisiapart.cpp:613
+#, kde-format
+msgid "Determines whether automatic cvs editing is active"
+msgstr "必要なときに自動的に cvs edit をアクティブにするかどうかを指定します。"
+
+#: cervisiapart.cpp:617
+#, kde-format
+msgid "Configure Cervisia..."
+msgstr "Cervisia を設定..."
+
+#: cervisiapart.cpp:620
+#, kde-format
+msgid "Allows you to configure the Cervisia KPart"
+msgstr "Cervisia KPart の設定ができます。"
+
+#: cervisiapart.cpp:629
+#, kde-format
+msgid "CVS &Manual"
+msgstr "CVS マニュアル(&M)"
+
+#: cervisiapart.cpp:632
+#, kde-format
+msgid "Opens the help browser with the CVS documentation"
+msgstr "CVS マニュアルをヘルプブラウザで開く"
+
+#: cervisiapart.cpp:639
+#, kde-format
+msgid "Unfold Folder"
+msgstr "フォルダを展開"
+
+#: cervisiapart.cpp:748
+#, kde-format
+msgid "Cervisia Part"
+msgstr "Cervisia コンポーネント"
+
+#: cervisiapart.cpp:749 main.cpp:144
+#, kde-format
+msgid "A CVS frontend"
+msgstr "CVS フロントエンド"
+
+#: cervisiapart.cpp:751 main.cpp:145
+#, kde-format
+msgid ""
+"Copyright (c) 1999-2002 Bernd Gehrmann\n"
+"Copyright (c) 2002-2008 the Cervisia authors"
+msgstr ""
+"Copyright (c) 1999-2002 Bernd Gehrmann\n"
+"Copyright (c) 2002-2008 Cervisia の作者"
+
+#: cervisiapart.cpp:755 main.cpp:149
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: cervisiapart.cpp:755 main.cpp:149
+#, kde-format
+msgid "Original author and former maintainer"
+msgstr "オリジナルの作者/以前のメンテナ"
+
+#: cervisiapart.cpp:757 main.cpp:151
+#, kde-format
+msgid "Christian Loose"
+msgstr "Christian Loose"
+
+#: cervisiapart.cpp:757 main.cpp:151
+#, kde-format
+msgid "Maintainer"
+msgstr "メンテナ"
+
+#: cervisiapart.cpp:759 main.cpp:153
+#, kde-format
+msgid "André Wöbbeking"
+msgstr "André Wöbbeking"
+
+#: cervisiapart.cpp:759 main.cpp:153
+#, kde-format
+msgid "Developer"
+msgstr "開発者"
+
+#: cervisiapart.cpp:761 main.cpp:155
+#, kde-format
+msgid "Carlos Woelz"
+msgstr "Carlos Woelz"
+
+#: cervisiapart.cpp:761 main.cpp:155
+#, kde-format
+msgid "Documentation"
+msgstr "マニュアル"
+
+#: cervisiapart.cpp:764 main.cpp:158
+#, kde-format
+msgid "Richard Moore"
+msgstr "Richard Moore"
+
+#: cervisiapart.cpp:764 main.cpp:158
+#, kde-format
+msgid "Conversion to KPart"
+msgstr "KPart に変換"
+
+#: cervisiapart.cpp:766 main.cpp:160
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: cervisiapart.cpp:766 main.cpp:160
+#, kde-format
+msgid "Conversion to D-Bus"
+msgstr "D-Bus への変換"
+
+#: cervisiapart.cpp:768 main.cpp:162
+#, kde-format
+msgid "Martin Koller"
+msgstr ""
+
+#: cervisiapart.cpp:768 main.cpp:162
+#, kde-format
+msgid "Port to KDE Frameworks 5"
+msgstr ""
+
+#: cervisiapart.cpp:777
+#, kde-format
+msgid "Open Sandbox"
+msgstr "サンドボックスを開く"
+
+#: cervisiapart.cpp:835
+#, kde-format
+msgid "CVS Edit"
+msgstr "CVS 編集"
+
+#: cervisiapart.cpp:1406 diffdialog.cpp:280 logdialog.cpp:516
+#, kde-format
+msgid "CVS Diff"
+msgstr "CVS Diff"
+
+#: cervisiapart.cpp:1421 diffdialog.cpp:514 logdialog.cpp:531
+#: resolvedialog.cpp:384
+#, kde-format
+msgid "Could not open file for writing."
+msgstr "書き込みのためにファイルを開けませんでした。"
+
+#: cervisiapart.cpp:1592
+#, kde-format
+msgid "The revision looks invalid."
+msgstr "リビジョンが正しくないようです。"
+
+#: cervisiapart.cpp:1599
+#, kde-format
+msgid "This is the first revision of the branch."
+msgstr "このブランチの最初のリビジョンです。"
+
+#: cervisiapart.cpp:1725
+#, kde-format
+msgid "Invoking help on Cervisia"
+msgstr "Cervisia のヘルプを起動"
+
+#: cervisiapart.cpp:1732
+#, kde-format
+msgid "Invoking help on CVS"
+msgstr "CVS のヘルプを起動"
+
+#: cervisiapart.cpp:1768
+#, kde-format
+msgid "Done"
+msgstr "完了"
+
+#: cervisiapart.cpp:1777
+#, kde-format
+msgid "A CVS commit to repository %1 is done"
+msgstr "リポジトリ %1 への CVS コミットが終了しました。"
+
+#: cervisiapart.cpp:1797
+#, kde-format
+msgid ""
+"This is not a CVS folder.\n"
+"If you did not intend to use Cervisia, you can switch view modes within "
+"Konqueror."
+msgstr ""
+"これは CVS フォルダではありません。\n"
+"Cervisia を使用したくない場合は Konqueror で表示モードを切り替えられます。"
+
+#. i18n: ectx: label, entry (ConflictColor), group (Colors)
+#: cervisiapart.kcfg:24
+#, kde-format
+msgid ""
+"The foreground color used to highlight files with a conflict in the file "
+"view."
+msgstr "前面の色は"
+
+#. i18n: ectx: label, entry, group (General)
+#: cervisiapart.kcfg:46
+#, kde-format
+msgid "Delay (ms) until the progress dialog appears."
+msgstr "進捗ダイアログが表示されるまでの遅延 (ミリ秒)"
+
+#: cervisiashell.cpp:60
+#, kde-format
+msgid "The Cervisia library could not be loaded."
+msgstr "Cervisia ライブラリがロードできません。"
+
+#: cervisiashell.cpp:95
+#, kde-format
+msgid "Allows you to configure the toolbar"
+msgstr "ツールバーの設定ができます"
+
+#: cervisiashell.cpp:100
+#, kde-format
+msgid "Allows you to customize the keybindings"
+msgstr "キーバインドの設定ができます"
+
+#: cervisiashell.cpp:105
+#, kde-format
+msgid "Exits Cervisia"
+msgstr "Cervisia を終了"
+
+#. i18n: ectx: Menu (file)
+#: cervisiashellui.rc:4 cervisiaui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "ファイル(&F)"
+
+#. i18n: ectx: Menu (settings)
+#: cervisiashellui.rc:7 cervisiaui.rc:70
+#, kde-format
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: ectx: Menu (help)
+#: cervisiashellui.rc:11 cervisiaui.rc:80
+#, kde-format
+msgid "&Help"
+msgstr "ヘルプ(&H)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: cervisiashellui.rc:16 cervisiaui.rc:84
+#, kde-format
+msgid "Main Toolbar"
+msgstr "メインツールバー"
+
+#. i18n: ectx: Menu (view)
+#: cervisiaui.rc:24
+#, kde-format
+msgid "&View"
+msgstr "表示(&V)"
+
+#. i18n: ectx: Menu (advanced)
+#: cervisiaui.rc:43
+#, kde-format
+msgid "&Advanced"
+msgstr "詳細(&A)"
+
+#. i18n: ectx: Menu (repository)
+#: cervisiaui.rc:63
+#, kde-format
+msgid "&Repository"
+msgstr "リポジトリ(&R)"
+
+#: changelogdialog.cpp:51
+#, kde-format
+msgid "Edit ChangeLog"
+msgstr "変更履歴を編集"
+
+#: changelogdialog.cpp:93
+#, kde-format
+msgid "The ChangeLog file could not be written."
+msgstr "変更履歴ファイルは書き込めませんでした。"
+
+#: changelogdialog.cpp:113
+#, kde-format
+msgid "A ChangeLog file does not exist. Create one?"
+msgstr "変更履歴ファイルが存在しません。作成しますか？"
+
+#: changelogdialog.cpp:114
+#, kde-format
+msgid "Create"
+msgstr "作成"
+
+#: changelogdialog.cpp:123
+#, kde-format
+msgid "The ChangeLog file could not be read."
+msgstr "変更履歴ファイルが読めません。"
+
+#: checkoutdialog.cpp:62 checkoutdialog.cpp:378
+#, kde-format
+msgid "CVS Checkout"
+msgstr "CVS チェックアウト"
+
+#: checkoutdialog.cpp:62
+#, kde-format
+msgid "CVS Import"
+msgstr "CVS インポート"
+
+#: checkoutdialog.cpp:98 checkoutdialog.cpp:115
+#, kde-format
+msgid "&Module:"
+msgstr "モジュール(&M):"
+
+#: checkoutdialog.cpp:107 checkoutdialog.cpp:122 mergedialog.cpp:69
+#: tagdialog.cpp:75 updatedialog.cpp:70
+#, kde-format
+msgid "Fetch &List"
+msgstr "リストを取得(&L)"
+
+#: checkoutdialog.cpp:130
+#, kde-format
+msgid "&Branch tag:"
+msgstr "ブランチタグ(&B):"
+
+#: checkoutdialog.cpp:136
+#, kde-format
+msgid "Re&cursive checkout"
+msgstr "再帰的なチェックアウト(&C)"
+
+#: checkoutdialog.cpp:159
+#, kde-format
+msgid "Working &folder:"
+msgstr "作業フォルダ(&F):"
+
+#: checkoutdialog.cpp:169
+#, kde-format
+msgid "&Vendor tag:"
+msgstr "ベンダータグ(&V):"
+
+#: checkoutdialog.cpp:177
+#, kde-format
+msgid "&Release tag:"
+msgstr "リリースタグ(&R):"
+
+#: checkoutdialog.cpp:185
+#, kde-format
+msgid "&Ignore files:"
+msgstr "無視するファイル(&I):"
+
+#: checkoutdialog.cpp:193
+#, kde-format
+msgid "&Comment:"
+msgstr "コメント(&C):"
+
+#: checkoutdialog.cpp:197
+#, kde-format
+msgid "Import as &binaries"
+msgstr "バイナリとしてインポート(&B)"
+
+#: checkoutdialog.cpp:201
+#, kde-format
+msgid "Use file's modification time as time of import"
+msgstr "ファイルの修正時間をインポートの時間として使用"
+
+#: checkoutdialog.cpp:210
+#, kde-format
+msgid "Chec&k out as:"
+msgstr "チェックアウト(&K):"
+
+#: checkoutdialog.cpp:214
+#, kde-format
+msgid "Ex&port only"
+msgstr "エクスポートだけ(&P)"
+
+#: checkoutdialog.cpp:323
+#, kde-format
+msgid "Please choose an existing working folder."
+msgstr "存在する作業フォルダを選択してください。"
+
+#: checkoutdialog.cpp:328 checkoutdialog.cpp:413
+#, kde-format
+msgid "Please specify a module name."
+msgstr "モジュール名を指定してください。"
+
+#: checkoutdialog.cpp:337
+#, kde-format
+msgid "Please specify a vendor tag and a release tag."
+msgstr "ベンダータグとリリースタグを指定してください。"
+
+#: checkoutdialog.cpp:343
+#, kde-format
+msgid ""
+"Tags must start with a letter and may contain\n"
+"letters, digits and the characters '-' and '_'."
+msgstr ""
+"タグは英字で始まり、英数字と '-', '_' のみから\n"
+"成っていなければなりません。"
+
+#: checkoutdialog.cpp:353
+#, kde-format
+msgid "A branch must be specified for export."
+msgstr "ブランチは、エクスポートのために指定されます。"
+
+#: checkoutdialog.cpp:407
+#, kde-format
+msgid "Please specify a repository."
+msgstr "リポジトリを指定してください。"
+
+#: checkoutdialog.cpp:423
+#, kde-format
+msgid "CVS Remote Log"
+msgstr "CVS リモートログ"
+
+#: commitdialog.cpp:68
+#, kde-format
+msgid "CVS Commit"
+msgstr "CVS コミット"
+
+#: commitdialog.cpp:85 logdialog.cpp:207
+#, kde-format
+msgid "&Diff"
+msgstr "&Diff"
+
+#: commitdialog.cpp:87
+#, kde-format
+msgid "Commit the following &files:"
+msgstr "以下のファイルをコミット(&F):"
+
+#: commitdialog.cpp:99
+#, kde-format
+msgid "Older &messages:"
+msgstr "古いメッセージ(&M):"
+
+#: commitdialog.cpp:109
+#, kde-format
+msgid "&Log message:"
+msgstr "ログメッセージ(&L):"
+
+#: commitdialog.cpp:118
+#, kde-format
+msgid "Use log message &template"
+msgstr "ログメッセージテンプレートを使う(&T)"
+
+#: commitdialog.cpp:201
+#, kde-format
+msgid "Current"
+msgstr "現在"
+
+#: cvsinitdialog.cpp:43
+#, kde-format
+msgid "Create New Repository (cvs init)"
+msgstr "新しいリポジトリを作成 (cvs init)"
+
+#: cvsinitdialog.cpp:55
+#, kde-format
+msgid "Repository folder:"
+msgstr "リポジトリフォルダ:"
+
+#: diffdialog.cpp:103
+#, kde-format
+msgid "Synchronize scroll bars"
+msgstr "スクロールバーを同期"
+
+#: diffdialog.cpp:113 diffdialog.cpp:436
+#, kde-format
+msgid "%1 difference"
+msgid_plural "%1 differences"
+msgstr[0] "%1 件の差異"
+msgstr[1] "%1 件の差異"
+
+#: diffdialog.cpp:250
+#, kde-format
+msgid "CVS Diff: %1"
+msgstr "CVS Diff: %1"
+
+#: diffdialog.cpp:252
+#, kde-format
+msgid "Repository:"
+msgstr "リポジトリ:"
+
+#: diffdialog.cpp:253 diffdialog.cpp:256
+#, kde-format
+msgid "Revision "
+msgstr "リビジョン "
+
+#: diffdialog.cpp:255
+#, kde-format
+msgid "Working dir:"
+msgstr "作業ディレクトリ:"
+
+#: diffdialog.cpp:434 resolvedialog.cpp:419
+#, kde-format
+msgid "%1 of %2"
+msgstr "%2 中 %1"
+
+#: diffview.cpp:281 diffview.cpp:352
+#, kde-format
+msgid "Delete"
+msgstr "削除"
+
+#: diffview.cpp:282 diffview.cpp:351
+#, kde-format
+msgid "Insert"
+msgstr "挿入"
+
+#: diffview.cpp:283 diffview.cpp:350
+#, kde-format
+msgid "Change"
+msgstr "変更"
+
+#: editwithmenu.cpp:51
+#, kde-format
+msgid "Edit With"
+msgstr "アプリケーションで編集"
+
+#: entry_status.cpp:37
+#, kde-format
+msgid "Locally Modified"
+msgstr "ローカルで変更されています"
+
+#: entry_status.cpp:40
+#, kde-format
+msgid "Locally Added"
+msgstr "ローカルで追加されています"
+
+#: entry_status.cpp:43
+#, kde-format
+msgid "Locally Removed"
+msgstr "ローカルで削除されています"
+
+#: entry_status.cpp:46
+#, kde-format
+msgid "Needs Update"
+msgstr "更新が必要です"
+
+#: entry_status.cpp:49
+#, kde-format
+msgid "Needs Patch"
+msgstr "パッチが必要です"
+
+#: entry_status.cpp:52
+#, kde-format
+msgid "Needs Merge"
+msgstr "マージが必要です"
+
+#: entry_status.cpp:55
+#, kde-format
+msgid "Up to Date"
+msgstr "最新です"
+
+#: entry_status.cpp:58
+#, kde-format
+msgid "Conflict"
+msgstr "コンフリクト"
+
+#: entry_status.cpp:61
+#, kde-format
+msgid "Updated"
+msgstr "更新済み"
+
+#: entry_status.cpp:64
+#, kde-format
+msgid "Patched"
+msgstr "パッチ適用済み"
+
+#: entry_status.cpp:67
+#, kde-format
+msgid "Removed"
+msgstr "削除済み"
+
+#: entry_status.cpp:70
+#, kde-format
+msgid "Not in CVS"
+msgstr "CVS にはありません"
+
+#: entry_status.cpp:73
+#, kde-format
+msgid "Unknown"
+msgstr "不明"
+
+#: historydialog.cpp:112 historydialog.cpp:364
+#, kde-format
+msgid "Commit, Modified "
+msgstr "変更されたものをコミット"
+
+#: historydialog.cpp:113 historydialog.cpp:365
+#, kde-format
+msgid "Commit, Added "
+msgstr "追加されたものをコミット"
+
+#: historydialog.cpp:114 historydialog.cpp:366
+#, kde-format
+msgid "Commit, Removed "
+msgstr "削除をコミット"
+
+#: historydialog.cpp:120 historydialog.cpp:356
+#, kde-format
+msgid "Checkout "
+msgstr "チェックアウト"
+
+#: historydialog.cpp:126 loginfo.cpp:63
+#, kde-format
+msgid "Tag"
+msgstr "タグ"
+
+#: historydialog.cpp:150 loglist.cpp:119
+#, kde-format
+msgid "Date"
+msgstr "日付"
+
+#: historydialog.cpp:150
+#, kde-format
+msgid "Event"
+msgstr "イベント"
+
+#: historydialog.cpp:150 loglist.cpp:119
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#: historydialog.cpp:151 loglist.cpp:119 updateview.cpp:53
+#, kde-format
+msgid "Revision"
+msgstr "リビジョン"
+
+#: historydialog.cpp:151 watchersmodel.cpp:96
+#, kde-format
+msgid "File"
+msgstr "ファイル"
+
+#: historydialog.cpp:151
+#, kde-format
+msgid "Repo Path"
+msgstr "レポパス"
+
+#: historydialog.cpp:155
+#, kde-format
+msgid "Show c&ommit events"
+msgstr "コミットイベントを表示(&O)"
+
+#: historydialog.cpp:158
+#, kde-format
+msgid "Show ch&eckout events"
+msgstr "チェックアウトイベントを表示(&E)"
+
+#: historydialog.cpp:161
+#, kde-format
+msgid "Show &tag events"
+msgstr "タグイベントを表示(&T)"
+
+#: historydialog.cpp:164
+#, kde-format
+msgid "Show &other events"
+msgstr "他のイベントを表示(&O)"
+
+#: historydialog.cpp:167
+#, kde-format
+msgid "Only &user:"
+msgstr "次のユーザのみ(&U):"
+
+#: historydialog.cpp:169
+#, kde-format
+msgid "Only &filenames matching:"
+msgstr "ファイル名がマッチするもののみ(&F):"
+
+#: historydialog.cpp:171
+#, kde-format
+msgid "Only &folders matching:"
+msgstr "フォルダ名がマッチするもののみ(&F):"
+
+#: historydialog.cpp:314 historydialog.cpp:320
+#, kde-format
+msgid "CVS History"
+msgstr "CVS 履歴"
+
+#: historydialog.cpp:357
+#, kde-format
+msgid "Tag "
+msgstr "タグ"
+
+#: historydialog.cpp:358
+#, kde-format
+msgid "Release "
+msgstr "リリース"
+
+#: historydialog.cpp:359
+#, kde-format
+msgid "Update, Deleted "
+msgstr "削除を更新 "
+
+#: historydialog.cpp:360
+#, kde-format
+msgid "Update, Copied "
+msgstr "コピーされたものを更新 "
+
+#: historydialog.cpp:361
+#, kde-format
+msgid "Update, Merged "
+msgstr "マージされたものを更新"
+
+#: historydialog.cpp:362
+#, kde-format
+msgid "Update, Conflict "
+msgstr "コンフリクトを更新"
+
+#: historydialog.cpp:363
+#, kde-format
+msgid "Update, Patched "
+msgstr "パッチで更新 "
+
+#: historydialog.cpp:367
+#, kde-format
+msgid "Unknown "
+msgstr "不明 "
+
+#: logdialog.cpp:91
+#, fuzzy, kde-format
+#| msgid "S&earch:"
+msgid "Search:"
+msgstr "検索(&E):"
+
+#: logdialog.cpp:104
+#, kde-format
+msgid "&Tree"
+msgstr "ツリー(&T)"
+
+#: logdialog.cpp:105
+#, kde-format
+msgid "&List"
+msgstr "リスト(&L)"
+
+#: logdialog.cpp:106
+#, kde-format
+msgid "CVS &Output"
+msgstr "CVS 出力(&O)"
+
+#: logdialog.cpp:112
+#, kde-format
+msgid ""
+"Choose revision A by clicking with the left mouse button,\n"
+"revision B by clicking with the middle mouse button."
+msgstr ""
+"左マウスボタンでクリックしてリビジョン A を、\n"
+"中マウスボタンでクリックしてリビジョン B を選択"
+
+#: logdialog.cpp:141
+#, kde-format
+msgid "Revision A:"
+msgstr "リビジョン A:"
+
+#: logdialog.cpp:141
+#, kde-format
+msgid "Revision B:"
+msgstr "リビジョン B:"
+
+#: logdialog.cpp:150
+#, kde-format
+msgid "Select by tag:"
+msgstr "タグによる選択:"
+
+#: logdialog.cpp:158
+#, kde-format
+msgid "Author:"
+msgstr "作者:"
+
+#: logdialog.cpp:166
+#, kde-format
+msgid "Date:"
+msgstr "日付:"
+
+#: logdialog.cpp:174
+#, kde-format
+msgid "Comment/Tags:"
+msgstr "コメント/タグ:"
+
+#: logdialog.cpp:206
+#, kde-format
+msgid "&Annotate A"
+msgstr "A に注釈(&A)"
+
+#: logdialog.cpp:208
+#, kde-format
+msgid "&Find"
+msgstr "検索(&F)"
+
+#: logdialog.cpp:214
+#, kde-format
+msgid ""
+"This revision is used when you click Annotate.\n"
+"It is also used as the first item of a Diff operation."
+msgstr ""
+"このリビジョンは、注釈をクリックして選択されます。\n"
+"またこれは Diff 操作の最初の項目としても使用されます。"
+
+#: logdialog.cpp:218
+#, kde-format
+msgid "This revision is used as the second item of a Diff operation."
+msgstr "このリビジョンは Diff 操作の二番目の項目として使われます。"
+
+#: logdialog.cpp:231
+#, fuzzy, kde-format
+#| msgctxt "to view revision A"
+#| msgid "&View A"
+msgid "&View A"
+msgstr "A を表示(&V)"
+
+#: logdialog.cpp:232
+#, kde-format
+msgid "Create Patch..."
+msgstr "パッチを作成..."
+
+#: logdialog.cpp:276
+#, kde-format
+msgid "CVS Log: %1"
+msgstr "CVS ログ: %1"
+
+#: logdialog.cpp:282
+#, kde-format
+msgid "CVS Log"
+msgstr "CVS ログ"
+
+#: logdialog.cpp:440
+#, kde-format
+msgid " (Branchpoint)"
+msgstr " (分岐点)"
+
+#: logdialog.cpp:461
+#, kde-format
+msgid "Please select revision A or B first."
+msgstr "まずリビジョン A か B を選択してください。"
+
+#: logdialog.cpp:482
+#, kde-format
+msgid "View File"
+msgstr "ファイルを表示"
+
+#: logdialog.cpp:500 logdialog.cpp:566
+#, kde-format
+msgid "Please select revision A or revisions A and B first."
+msgstr "まずリビジョン A か A と B を選択してください。"
+
+#: loginfo.cpp:57
+#, kde-format
+msgid "Branchpoint"
+msgstr "分岐点"
+
+#: loginfo.cpp:60
+#, kde-format
+msgid "On Branch"
+msgstr "ブランチ"
+
+#: loglist.cpp:120
+#, kde-format
+msgid "Branch"
+msgstr "ブランチ"
+
+#: loglist.cpp:120
+#, kde-format
+msgid "Comment"
+msgstr "コメント"
+
+#: loglist.cpp:120
+#, kde-format
+msgid "Tags"
+msgstr "タグ"
+
+#: logplainview.cpp:49
+#, kde-format
+msgid "revision %1"
+msgstr "リビジョン %1"
+
+#: logplainview.cpp:52
+#, kde-format
+msgid "Select for revision A"
+msgstr "リビジョン A を選択"
+
+#: logplainview.cpp:55
+#, kde-format
+msgid "Select for revision B"
+msgstr "リビジョン B を選択"
+
+#: logplainview.cpp:58
+#, kde-format
+msgid "date: %1; author: %2"
+msgstr "日時: %1; 作者: %2"
+
+#: main.cpp:172
+#, kde-format
+msgid "The sandbox to be loaded"
+msgstr "ロードするサンドボックス"
+
+#: main.cpp:173
+#, fuzzy, kde-format
+#| msgid "Show resolve dialog for the given file"
+msgid "Show resolve dialog for the given file."
+msgstr "選択されたファイルのリゾルブダイアログを開く"
+
+#: main.cpp:174
+#, fuzzy, kde-format
+#| msgid "Show log dialog for the given file"
+msgid "Show log dialog for the given file."
+msgstr "与えられらたファイルのログダイアログを表示"
+
+#: main.cpp:175
+#, fuzzy, kde-format
+#| msgid "Show annotation dialog for the given file"
+msgid "Show annotation dialog for the given file."
+msgstr "与えられらたファイルの注釈ダイアログを表示する。"
+
+#: mergedialog.cpp:45
+#, kde-format
+msgid "CVS Merge"
+msgstr "CVS マージ"
+
+#: mergedialog.cpp:60
+#, kde-format
+msgid "Merge from &branch:"
+msgstr "ブランチからマージ(&B):"
+
+#: mergedialog.cpp:79
+#, kde-format
+msgid "Merge &modifications:"
+msgstr "変更をマージ(&M):"
+
+#: mergedialog.cpp:82
+#, kde-format
+msgid "between tag: "
+msgstr "タグ: "
+
+#: mergedialog.cpp:88
+#, kde-format
+msgid "and tag: "
+msgstr "とタグ: "
+
+#: mergedialog.cpp:94 updatedialog.cpp:88
+#, kde-format
+msgid "Fetch L&ist"
+msgstr "リストを取得(&I)"
+
+#: misc.cpp:84
+#, kde-format
+msgid "CVS Status"
+msgstr "CVS ステータス"
+
+#: misc.cpp:218
+#, kde-format
+msgid "Overwrite the file"
+msgstr "ファイルを上書きする"
+
+#: misc.cpp:221
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "‘%1’ という名前のファイルは既に存在します。本当に上書きしますか？"
+
+#: misc.cpp:222
+#, kde-format
+msgid "Overwrite File?"
+msgstr "ファイルを上書きしますか？"
+
+#: patchoptiondialog.cpp:61
+#, kde-format
+msgid "Context"
+msgstr "コンテキスト"
+
+#: patchoptiondialog.cpp:62
+#, kde-format
+msgid "Normal"
+msgstr "ノーマル"
+
+#: patchoptiondialog.cpp:63
+#, kde-format
+msgid "Unified"
+msgstr "ユニファイド"
+
+#: patchoptiondialog.cpp:67
+#, kde-format
+msgid "Output Format"
+msgstr "出力フォーマット"
+
+#: patchoptiondialog.cpp:77
+#, kde-format
+msgid "&Number of context lines:"
+msgstr "コンテキストの行数(&N):"
+
+#: patchoptiondialog.cpp:93
+#, kde-format
+msgid "Ignore added or removed empty lines"
+msgstr "追加・削除された空行は無視する"
+
+#: patchoptiondialog.cpp:94
+#, kde-format
+msgid "Ignore changes in the amount of whitespace"
+msgstr "ホワイトスペースの数の違いは無視する"
+
+#: patchoptiondialog.cpp:95
+#, kde-format
+msgid "Ignore all whitespace"
+msgstr "すべてのホワイトスペースを無視する"
+
+#: patchoptiondialog.cpp:96
+#, kde-format
+msgid "Ignore changes in case"
+msgstr "大文字と小文字の違いは無視する"
+
+#: patchoptiondialog.cpp:103
+#, kde-format
+msgid "Ignore Options"
+msgstr "無視するオプション"
+
+#: protocolview.cpp:93
+#, kde-format
+msgid "Clear"
+msgstr "クリア"
+
+#: protocolview.cpp:135
+#, kde-format
+msgid "[Exited with status %1]\n"
+msgstr "[終了コード %1 で終了]\n"
+
+#: protocolview.cpp:137
+#, kde-format
+msgid "[Finished]\n"
+msgstr "[完了]\n"
+
+#: protocolview.cpp:140
+#, kde-format
+msgid "[Aborted]\n"
+msgstr "[中止]\n"
+
+#: repositorydialog.cpp:138
+#, kde-format
+msgid "Default"
+msgstr "デフォルト"
+
+#: repositorydialog.cpp:157
+#, kde-format
+msgid "Logged in"
+msgstr "ログインしています"
+
+#: repositorydialog.cpp:157
+#, kde-format
+msgid "Not logged in"
+msgstr "ログインしていません"
+
+#: repositorydialog.cpp:159
+#, kde-format
+msgid "No login required"
+msgstr "ログインは必要ありません"
+
+#: repositorydialog.cpp:172
+#, kde-format
+msgid "Configure Access to Repositories"
+msgstr "リポジトリへのアクセス設定"
+
+#: repositorydialog.cpp:193
+#, kde-format
+msgid "Repository"
+msgstr "リポジトリ"
+
+#: repositorydialog.cpp:193
+#, kde-format
+msgid "Method"
+msgstr "方法"
+
+#: repositorydialog.cpp:194
+#, kde-format
+msgid "Compression"
+msgstr "圧縮"
+
+#: repositorydialog.cpp:194 settingsdialog.cpp:306 updateview.cpp:53
+#, kde-format
+msgid "Status"
+msgstr "ステータス"
+
+#: repositorydialog.cpp:203
+#, fuzzy, kde-format
+#| msgid "&Add..."
+msgid "Add..."
+msgstr "追加(&A)..."
+
+#: repositorydialog.cpp:204
+#, fuzzy, kde-format
+#| msgid "&Modify..."
+msgid "Modify..."
+msgstr "変更(&M)..."
+
+#: repositorydialog.cpp:206
+#, kde-format
+msgid "Login..."
+msgstr "ログイン..."
+
+#: repositorydialog.cpp:207
+#, kde-format
+msgid "Logout"
+msgstr "ログアウト"
+
+#: repositorydialog.cpp:356
+#, kde-format
+msgid "This repository is already known."
+msgstr "このリポジトリは既知です。"
+
+#: repositorydialog.cpp:450
+#, kde-format
+msgid "Login failed."
+msgstr "ログイン失敗"
+
+#: repositorydialog.cpp:470
+#, kde-format
+msgid "CVS Logout"
+msgstr "CVS ログアウト"
+
+#: resolvedialog.cpp:142
+#, kde-format
+msgid "Your version (A):"
+msgstr "あなたのバージョン (A):"
+
+#: resolvedialog.cpp:151
+#, kde-format
+msgid "Other version (B):"
+msgstr "他のバージョン (B):"
+
+#: resolvedialog.cpp:163
+#, kde-format
+msgid "Merged version:"
+msgstr "マージされたバージョン:"
+
+#: resolvedialog.cpp:260
+#, kde-format
+msgid "CVS Resolve: %1"
+msgstr "CVS のリゾルブ: %1"
+
+#: resolvedialog.cpp:421
+#, kde-format
+msgid "%1 conflicts"
+msgstr "%1 件コンフリクト"
+
+#: settingsdialog.cpp:73
+#, kde-format
+msgid "Configure Cervisia"
+msgstr "Cervisia の設定"
+
+#: settingsdialog.cpp:226
+#, kde-format
+msgid "General"
+msgstr "全般"
+
+#: settingsdialog.cpp:231
+#, kde-format
+msgid "&User name for the change log editor:"
+msgstr "変更履歴編集者のユーザ名(&U):"
+
+#: settingsdialog.cpp:239
+#, kde-format
+msgid "&Path to CVS executable, or 'cvs':"
+msgstr "cvs 実行ファイルへのパス (または単に 'cvs') (&P):"
+
+#: settingsdialog.cpp:258
+#, kde-format
+msgid "Diff Viewer"
+msgstr "Diff ビューア"
+
+#: settingsdialog.cpp:263
+#, kde-format
+msgid "&Number of context lines in diff dialog:"
+msgstr "diff ダイアログのコンテキスト行数(&N):"
+
+#: settingsdialog.cpp:271
+#, kde-format
+msgid "Additional &options for cvs diff:"
+msgstr "cvs diff の追加オプション(&O):"
+
+#: settingsdialog.cpp:278
+#, kde-format
+msgid "Tab &width in diff dialog:"
+msgstr "diff ダイアログのタグの幅(&W):"
+
+#: settingsdialog.cpp:286
+#, kde-format
+msgid "External diff &frontend:"
+msgstr "外部 diff フロントエンド(&F):"
+
+#: settingsdialog.cpp:309
+#, kde-format
+msgid ""
+"When opening a sandbox from a &remote repository,\n"
+"start a File->Status command automatically"
+msgstr ""
+"リモートリポジトリからサンドボックスを開いたときに\n"
+"ファイル->ステータスコマンドを自動的に実行する(&R)"
+
+#: settingsdialog.cpp:311
+#, kde-format
+msgid ""
+"When opening a sandbox from a &local repository,\n"
+"start a File->Status command automatically"
+msgstr ""
+"ローカルリポジトリからサンドボックスを開いたときに\n"
+"ファイル->ステータスコマンドを自動的に実行する(&L)"
+
+#: settingsdialog.cpp:328
+#, kde-format
+msgid "Advanced"
+msgstr "詳細"
+
+#: settingsdialog.cpp:348
+#, kde-format
+msgid "Appearance"
+msgstr "外観"
+
+#: settingsdialog.cpp:351
+#, kde-format
+msgid "Fonts"
+msgstr "フォント"
+
+#: settingsdialog.cpp:354
+#, kde-format
+msgid "Font for &Protocol Window..."
+msgstr "プロトコルウィンドウのフォント(&P)..."
+
+#: settingsdialog.cpp:356
+#, kde-format
+msgid "Font for A&nnotate View..."
+msgstr "注釈ビューのフォント(&N)..."
+
+#: settingsdialog.cpp:358
+#, kde-format
+msgid "Font for D&iff View..."
+msgstr "Diff ビューのフォント(&I)..."
+
+#: settingsdialog.cpp:360
+#, kde-format
+msgid "Font for ChangeLog View..."
+msgstr "ChangeLog ビューのフォント..."
+
+#: settingsdialog.cpp:369
+#, kde-format
+msgid "Colors"
+msgstr "色"
+
+#: settingsdialog.cpp:372
+#, kde-format
+msgid "Conflict:"
+msgstr "コンフリクト:"
+
+#: settingsdialog.cpp:376
+#, kde-format
+msgid "Diff change:"
+msgstr "Diff 変更:"
+
+#: settingsdialog.cpp:380
+#, kde-format
+msgid "Local change:"
+msgstr "ローカル変更:"
+
+#: settingsdialog.cpp:384
+#, kde-format
+msgid "Diff insertion:"
+msgstr "Diff 挿入:"
+
+#: settingsdialog.cpp:388
+#, kde-format
+msgid "Remote change:"
+msgstr "リモート変更:"
+
+#: settingsdialog.cpp:392
+#, kde-format
+msgid "Diff deletion:"
+msgstr "Diff 削除:"
+
+#: settingsdialog.cpp:396
+#, kde-format
+msgid "Not in cvs:"
+msgstr "CVS にありません:"
+
+#: settingsdialog.cpp:417
+#, kde-format
+msgid "Split main window &horizontally"
+msgstr "メインウィンドウを水平に分割(&H)"
+
+#. i18n: ectx: property (text), widget (QLabel, timeoutLbl)
+#: settingsdialog_advanced.ui:32
+#, kde-format
+msgid "&Timeout after which a progress dialog appears (in ms):"
+msgstr "進捗ダイアログが表示されるまでのタイムアウト時間(&T) ミリ秒単位:"
+
+#. i18n: ectx: property (text), widget (QLabel, compressionLbl)
+#: settingsdialog_advanced.ui:45
+#, kde-format
+msgid "Default compression &level:"
+msgstr "デフォルトの圧縮レベル(&L):"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseSshAgent)
+#: settingsdialog_advanced.ui:58
+#, kde-format
+msgid "Utilize a running or start a new ssh-agent process"
+msgstr "ssh-agent プロセスを起動/実行中"
+
+#: tagdialog.cpp:51
+#, kde-format
+msgid "CVS Delete Tag"
+msgstr "CVS 削除タグ"
+
+#: tagdialog.cpp:51
+#, kde-format
+msgid "CVS Tag"
+msgstr "CVS タグ"
+
+#: tagdialog.cpp:71 tagdialog.cpp:92
+#, kde-format
+msgid "&Name of tag:"
+msgstr "タグ名(&N):"
+
+#: tagdialog.cpp:101
+#, kde-format
+msgid "Create &branch with this tag"
+msgstr "このタグでブランチを作成(&B)"
+
+#: tagdialog.cpp:105
+#, kde-format
+msgid "&Force tag creation even if tag already exists"
+msgstr "既にタグが存在していても、強制的にタグを作成(&F)"
+
+#: tagdialog.cpp:145
+#, kde-format
+msgid "You must define a tag name."
+msgstr "タグ名を付ける必要があります。"
+
+#: tagdialog.cpp:153
+#, kde-format
+msgid ""
+"Tag must start with a letter and may contain letters, digits and the "
+"characters '-' and '_'."
+msgstr ""
+"タグは英字で始まり、英数字と '-', '_' のみから成っていなければなりません。"
+
+#: updatedialog.cpp:46
+#, kde-format
+msgid "CVS Update"
+msgstr "CVS Update"
+
+#: updatedialog.cpp:61
+#, kde-format
+msgid "Update to &branch: "
+msgstr "ブランチの更新(&B): "
+
+#: updatedialog.cpp:80
+#, kde-format
+msgid "Update to &tag: "
+msgstr "タグに更新(&T): "
+
+#: updatedialog.cpp:98
+#, kde-format
+msgid "Update to &date ('yyyy-mm-dd'):"
+msgstr "日付に更新(&D) (指定フォーマット: 'yyyy-mm-dd'):"
+
+#: updateview.cpp:53
+#, kde-format
+msgid "File Name"
+msgstr "ファイル名"
+
+#: updateview.cpp:54
+#, kde-format
+msgid "Tag/Date"
+msgstr "タグ/日付"
+
+#: updateview.cpp:54
+#, kde-format
+msgid "Timestamp"
+msgstr "タイムスタンプ"
+
+#: watchdialog.cpp:43
+#, kde-format
+msgid "CVS Watch Add"
+msgstr "CVS ウォッチ追加"
+
+#: watchdialog.cpp:43
+#, kde-format
+msgid "CVS Watch Remove"
+msgstr "CVS ウォッチ削除"
+
+#: watchdialog.cpp:57
+#, kde-format
+msgid "Add watches for the following events:"
+msgstr "以下のイベントのウォッチを追加:"
+
+#: watchdialog.cpp:58
+#, kde-format
+msgid "Remove watches for the following events:"
+msgstr "以下のイベントのウォッチを削除:"
+
+#: watchdialog.cpp:61
+#, kde-format
+msgid "&All"
+msgstr "すべて(&A)"
+
+#: watchdialog.cpp:66
+#, kde-format
+msgid "&Only:"
+msgstr "以下のもののみ(&O):"
+
+#: watchdialog.cpp:75
+#, kde-format
+msgid "&Commits"
+msgstr "コミット(&C)"
+
+#: watchdialog.cpp:79
+#, kde-format
+msgid "&Edits"
+msgstr "編集(&E)"
+
+#: watchdialog.cpp:83
+#, kde-format
+msgid "&Unedits"
+msgstr "元に戻す(&U)"
+
+#: watchersdialog.cpp:74 watchersdialog.cpp:80
+#, kde-format
+msgid "CVS Watchers"
+msgstr "CVS ウォッチャー"
+
+#: watchersmodel.cpp:98
+#, kde-format
+msgid "Watcher"
+msgstr "ウォッチャー"
+
+#: watchersmodel.cpp:100
+#, kde-format
+msgid "Edit"
+msgstr "編集"
+
+#: watchersmodel.cpp:102
+#, kde-format
+msgid "Unedit"
+msgstr "元に戻す"
+
+#: watchersmodel.cpp:104
+#, kde-format
+msgid "Commit"
+msgstr "コミット"

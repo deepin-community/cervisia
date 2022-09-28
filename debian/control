@@ -1,0 +1,59 @@
+Source: cervisia
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.5~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 1.3.0~),
+               kinit-dev,
+               libkf5config-dev,
+               libkf5doctools-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5itemviews-dev,
+               libkf5notifications-dev,
+               libkf5parts-dev,
+               libkf5su-dev,
+               libkf5textwidgets-dev,
+               libkf5widgetsaddons-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.2.0~),
+Standards-Version: 4.5.1
+Homepage: https://apps.kde.org/en/cervisia
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/cervisia
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/cervisia.git
+Rules-Requires-Root: no
+
+Package: cervisia
+Architecture: any
+Section: devel
+Depends: cvsservice (= ${binary:Version}),
+         kinit,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Suggests: khelpcenter
+Description: graphical CVS client
+ Cervisia is a front-end for the CVS version control system client.
+ .
+ In addition to basic and advanced CVS operations, it provides a convenient
+ graphical interface for viewing, editing, and manipulating files in a CVS
+ repository or working directory.  It includes tools designed to ease the use
+ of CVS, such as a log browser, conflict resolver, and changelog editor that
+ checks for incorrect formatting.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: cvsservice
+Architecture: any
+Section: vcs
+Depends: cvs, ${misc:Depends}, ${shlibs:Depends}
+Replaces: cervisia (<< 4:17.08.3-1~), libcvsservice0
+Breaks: cervisia (<< 4:17.08.3-1~), libcvsservice0
+Description: D-Bus service for accessing CVS repositories
+ This package provides a D-Bus service for browsing and manipulating
+ remote CVS repositories.  Applications may make use of it directly from
+ C++, or access the service over D-Bus.
+ .
+ This package is part of the KDE Software Development Kit module.

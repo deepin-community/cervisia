@@ -1,0 +1,4 @@
+lacks-ldconfig-trigger usr/lib/*/libkdeinit5_cvsservice.so
+package-name-doesnt-match-sonames libkdeinit5-cvsaskpass libkdeinit5-cvsservice
+shared-library-lacks-version usr/lib/*/libkdeinit5_cvsaskpass.so libkdeinit5_cvsaskpass.so
+shared-library-lacks-version usr/lib/*/libkdeinit5_cvsservice.so libkdeinit5_cvsservice.so

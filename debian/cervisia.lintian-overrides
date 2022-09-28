@@ -1,0 +1,3 @@
+lacks-ldconfig-trigger usr/lib/*/libkdeinit5_cervisia.so
+package-name-doesnt-match-sonames libkdeinit5-cervisia
+shared-library-lacks-version usr/lib/*/libkdeinit5_cervisia.so libkdeinit5_cervisia.so

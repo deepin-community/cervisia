@@ -1,0 +1,2600 @@
+# translation of cervisia.po to Belarusian
+#
+# Siarhei Liantsevich <serzh.by@gmail.com>, 2007.
+# Dzimitryj Turaviec <dimitriy.t@tut.by>, 2007.
+# Darafei Praliaskouski <komzpa@licei2.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: cervisia\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:11+0200\n"
+"PO-Revision-Date: 2007-10-28 14:03+0200\n"
+"Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Сяржук Лянцэвіч, Дзімітрый Туравец"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "serzh.by@gmail.com, dimitriy.t@tut.by"
+
+#: addignoremenu.cpp:38
+#, kde-format
+msgid "Add to Ignore List"
+msgstr ""
+
+#
+#: addignoremenu.cpp:77
+#, fuzzy, kde-format
+#| msgid "&Ignore files:"
+msgid "Ignore File"
+msgid_plural "Ignore %1 Files"
+msgstr[0] "І&гнараваць файлы:"
+msgstr[1] "І&гнараваць файлы:"
+msgstr[2] "І&гнараваць файлы:"
+
+#
+#: addignoremenu.cpp:103
+#, fuzzy, kde-format
+#| msgid "Could not open file for writing."
+msgid "Cannot open file '%1' for writing."
+msgstr "Немагчыма адкрыць файл для запісу."
+
+#
+#: addremovedialog.cpp:43
+#, kde-format
+msgid "CVS Add"
+msgstr "Дадаць у CVS"
+
+#
+#: addremovedialog.cpp:44
+#, kde-format
+msgid "CVS Add Binary"
+msgstr "Дадаць бінарны файл у CVS"
+
+#
+#: addremovedialog.cpp:45
+#, kde-format
+msgid "CVS Remove"
+msgstr "Выдаліць з CVS"
+
+#
+#: addremovedialog.cpp:65
+#, kde-format
+msgid "Add the following files to the repository:"
+msgstr "Дадаць вылучаныя файлы ў сховішча:"
+
+#
+#: addremovedialog.cpp:66
+#, kde-format
+msgid "Add the following binary files to the repository:"
+msgstr "Дадаць вылучаныя бінарныя файлы ў сховішча:"
+
+#
+#: addremovedialog.cpp:67
+#, kde-format
+msgid "Remove the following files from the repository:"
+msgstr "Выдаліць вылучаныя файлы са сховішча:"
+
+#
+#: addremovedialog.cpp:80
+#, kde-format
+msgid "This will also remove the files from your local working copy."
+msgstr "Файлы з лакальнай працоўнай копіі таксама будуць выдаленыя."
+
+#
+#: addrepositorydialog.cpp:42
+#, kde-format
+msgid "Add Repository"
+msgstr "Дадаць сховішча"
+
+#
+#: addrepositorydialog.cpp:55 checkoutdialog.cpp:89
+#, kde-format
+msgid "&Repository:"
+msgstr "С&ховішча:"
+
+#
+#: addrepositorydialog.cpp:70
+#, kde-format
+msgid "Use remote &shell (only for :ext: repositories):"
+msgstr "&Выкарыстаць камандную абалонку (толькі для сховішчаў :ext:):"
+
+#
+#: addrepositorydialog.cpp:79
+#, kde-format
+msgid "Invoke this program on the server side:"
+msgstr "Запусціць гэтую праграму з боку сервера:"
+
+#
+#: addrepositorydialog.cpp:89
+#, kde-format
+msgid "Use different &compression level:"
+msgstr "Выкарыстаць іншы ўзровень &сціску:"
+
+#
+#: addrepositorydialog.cpp:97
+#, kde-format
+msgid "Download cvsignore file from server"
+msgstr "Загрузіць файл cvsignore з сервера"
+
+#
+#: addrepositorydialog.cpp:191
+#, kde-format
+msgid "Repository Settings"
+msgstr "Налады сховішча"
+
+#
+#: annotatecontroller.cpp:81
+#, kde-format
+msgid "CVS Annotate: %1"
+msgstr "Анатацыя ў CVS: %1"
+
+#
+#: annotatecontroller.cpp:92
+#, kde-format
+msgid "CVS Annotate"
+msgstr "Анатацыя ў CVS"
+
+#: annotatedialog.cpp:45
+#, kde-format
+msgid "Go to Line..."
+msgstr ""
+
+#: annotatedialog.cpp:50
+#, kde-format
+msgid "Find Prev"
+msgstr ""
+
+#: annotatedialog.cpp:55
+#, kde-format
+msgid "Find Next"
+msgstr ""
+
+#
+#: annotatedialog.cpp:65
+#, fuzzy, kde-format
+#| msgid "S&earch:"
+msgid "Search"
+msgstr "&Шукаць:"
+
+#: annotatedialog.cpp:120
+#, kde-format
+msgid "Go to Line"
+msgstr ""
+
+#: annotatedialog.cpp:120
+#, kde-format
+msgid "Go to line number:"
+msgstr ""
+
+#
+#: cervisiapart.cpp:114 main.cpp:143
+#, kde-format
+msgid "Cervisia"
+msgstr "Cervisia"
+
+#
+#: cervisiapart.cpp:122
+#, kde-format
+msgid "Starting cvsservice failed with message: "
+msgstr "Памылка запуску cvsservice: "
+
+#
+#: cervisiapart.cpp:158
+#, kde-format
+msgid ""
+"This KPart is non-functional, because the cvs D-Bus service could not be "
+"started."
+msgstr "Гэты KPart не функцыянуе, немагчыма запусціць сэрвіс D-bus cvs."
+
+#
+#: cervisiapart.cpp:199
+#, kde-format
+msgid "Remote CVS working folders are not supported."
+msgstr "Аддаленыя працоўныя тэчкі CVS не падтрымліваюцца."
+
+#
+#: cervisiapart.cpp:208
+#, kde-format
+msgid ""
+"You cannot change to a different folder while there is a running cvs job."
+msgstr "Вы не можаце перайсці ў іншую тэчку, пакуль выконваецца каманда CVS."
+
+#
+#: cervisiapart.cpp:229
+#, kde-format
+msgid ""
+"F - All files are hidden, the tree shows only folders\n"
+"N - All up-to-date files are hidden\n"
+"R - All removed files are hidden"
+msgstr ""
+"F - Усе файлы ўтоеныя, адлюстроўваць толькі тэчкі\n"
+"N - Усе адноўленыя файлы ўтоеныя\n"
+"R - Усе выдаленыя файлы ўтоеныя"
+
+#
+#: cervisiapart.cpp:242
+#, fuzzy, kde-format
+#| msgid "O&pen Sandbox..."
+msgid "Open Sandbox..."
+msgstr "&Адкрыць працоўную копію..."
+
+#
+#: cervisiapart.cpp:246
+#, kde-format
+msgid "Opens a CVS working folder in the main window"
+msgstr "Адкрыць працоўную тэчку CVS у галоўным акне"
+
+#
+#: cervisiapart.cpp:250
+#, kde-format
+msgid "Recent Sandboxes"
+msgstr "Нядаўнія працоўныя копіі"
+
+#
+#: cervisiapart.cpp:254
+#, kde-format
+msgid "&Insert ChangeLog Entry..."
+msgstr "&Уставіць запіс у ChangeLog..."
+
+#
+#: cervisiapart.cpp:257
+#, kde-format
+msgid "Inserts a new intro into the file ChangeLog in the toplevel folder"
+msgstr "Даданне новага ўступу ў файл ChangeLog у пачатковай тэчцы"
+
+#
+#: cervisiapart.cpp:261
+#, kde-format
+msgid "&Update"
+msgstr "&Абнавіць"
+
+#
+#: cervisiapart.cpp:265
+#, kde-format
+msgid "Updates (cvs update) the selected files and folders"
+msgstr "Аднаўленне (cvs update) вылучаных файлаў і тэчак"
+
+#
+#: cervisiapart.cpp:269
+#, kde-format
+msgid "&Status"
+msgstr "&Стан"
+
+#
+#: cervisiapart.cpp:273
+#, kde-format
+msgid "Updates the status (cvs -n update) of the selected files and folders"
+msgstr "Аднаўленне стану  (cvs -n update) вылучаных файлаў і тэчак"
+
+#: cervisiapart.cpp:277 resolvedialog.cpp:183
+#, kde-format
+msgid "&Edit"
+msgstr "&Змяніць"
+
+#
+#: cervisiapart.cpp:280
+#, kde-format
+msgid "Opens the marked file for editing"
+msgstr "Адкрыць вылучаны файл для рэдагавання"
+
+#
+#: cervisiapart.cpp:284
+#, kde-format
+msgid "Reso&lve..."
+msgstr "&Вырашэнне канфліктаў..."
+
+#
+#: cervisiapart.cpp:287
+#, kde-format
+msgid "Opens the resolve dialog with the selected file"
+msgstr "Адкрыццё дыялогу вырашэння канфліктаў для вылучанага файла"
+
+#
+#: cervisiapart.cpp:291
+#, kde-format
+msgid "&Commit..."
+msgstr "&Перадаць..."
+
+#
+#: cervisiapart.cpp:295
+#, kde-format
+msgid "Commits the selected files"
+msgstr "Перадаць вылучаныя файлы"
+
+#
+#: cervisiapart.cpp:299
+#, kde-format
+msgid "&Add to Repository..."
+msgstr "&Дадаць у сховішча..."
+
+#
+#: cervisiapart.cpp:302
+#, fuzzy, kde-format
+#| msgid "CVS Add"
+msgid "Add"
+msgstr "Дадаць у CVS"
+
+#
+#: cervisiapart.cpp:304
+#, kde-format
+msgid "Adds (cvs add) the selected files to the repository"
+msgstr "Даданне (cvs add) вылучаных файлаў у сховішча"
+
+#
+#: cervisiapart.cpp:308
+#, kde-format
+msgid "Add &Binary..."
+msgstr "Дадаць &бінарны..."
+
+#
+#: cervisiapart.cpp:311
+#, kde-format
+msgid "Adds (cvs -kb add) the selected files as binaries to the repository"
+msgstr "Даданне (cvs -kb add) вылучаных файлаў як бінарных у сховішча"
+
+#
+#: cervisiapart.cpp:315
+#, kde-format
+msgid "&Remove From Repository..."
+msgstr "В&ыдаліць са сховішча..."
+
+#
+#: cervisiapart.cpp:318 repositorydialog.cpp:205
+#, fuzzy, kde-format
+#| msgid "Removed"
+msgid "Remove"
+msgstr "Выдалены"
+
+#
+#: cervisiapart.cpp:320
+#, kde-format
+msgid "Removes (cvs remove) the selected files from the repository"
+msgstr "Выдаленне (cvs remove) вылучаных файлаў са сховішча"
+
+#
+#: cervisiapart.cpp:324
+#, kde-format
+msgid "Rever&t"
+msgstr "Вя&рнуць"
+
+#: cervisiapart.cpp:327
+#, kde-format
+msgid "Reverts (cvs update -C) the selected files (only cvs 1.11)"
+msgstr "Вярнуць (cvs update -C) вылучаныя файлы (толькі ў cvs 1.11)"
+
+#
+#: cervisiapart.cpp:331
+#, kde-format
+msgid "&Properties"
+msgstr "У&ласцівасці"
+
+#: cervisiapart.cpp:338
+#, kde-format
+msgid "Stop"
+msgstr "Спыніць"
+
+#
+#: cervisiapart.cpp:343
+#, kde-format
+msgid "Stops any running sub-processes"
+msgstr "Спыніць усе выконваемыя падпрацэсы"
+
+#
+#: cervisiapart.cpp:348
+#, kde-format
+msgid "Browse &Log..."
+msgstr "Пра&глядзець часопіс..."
+
+#
+#: cervisiapart.cpp:352
+#, kde-format
+msgid "Shows the revision tree of the selected file"
+msgstr "Паказаць дрэва рэвізій вылучанага файла"
+
+#
+#: cervisiapart.cpp:357
+#, kde-format
+msgid "Browse Multi-File Log..."
+msgstr "Праглядзець часопіс некалькіх файлаў..."
+
+#
+#: cervisiapart.cpp:361
+#, kde-format
+msgid "&Annotate..."
+msgstr "А&натацыя..."
+
+#: cervisiapart.cpp:365
+#, kde-format
+msgid "Shows a blame-annotated view of the selected file"
+msgstr "Паказаць анатацыю вылучанага файла"
+
+#
+#: cervisiapart.cpp:369
+#, kde-format
+msgid "&Difference to Repository (BASE)..."
+msgstr "Адро&зненні ў сховішчы (BASE)..."
+
+#
+#: cervisiapart.cpp:373
+#, kde-format
+msgid ""
+"Shows the differences of the selected file to the checked out version (tag "
+"BASE)"
+msgstr ""
+"Паказаць адрозненні вылучанага файла і яго папярэдняй версіі (пазнака BASE)"
+
+#
+#: cervisiapart.cpp:377
+#, kde-format
+msgid "Difference to Repository (HEAD)..."
+msgstr "Адрозненні ў сховішчы (HEAD)..."
+
+#
+#: cervisiapart.cpp:381
+#, kde-format
+msgid ""
+"Shows the differences of the selected file to the newest version in the "
+"repository (tag HEAD)"
+msgstr ""
+"Паказаць адрозненні вылучанага файла і яго пазнейшай версіяй у сховішчы "
+"(пазнака HEAD)"
+
+#
+#: cervisiapart.cpp:385
+#, kde-format
+msgid "Last &Change..."
+msgstr "Апо&шнія змены..."
+
+#
+#: cervisiapart.cpp:388
+#, kde-format
+msgid ""
+"Shows the differences between the last two revisions of the selected file"
+msgstr "Паказаць адрозненні паміж двума апошнімі рэвізіямі вылучанага файла"
+
+#
+#: cervisiapart.cpp:392
+#, kde-format
+msgid "&History..."
+msgstr "&Гісторыя..."
+
+#
+#: cervisiapart.cpp:395
+#, kde-format
+msgid "Shows the CVS history as reported by the server"
+msgstr "Паказаць гісторыю CVS, прадстаўленую серверам"
+
+#
+#: cervisiapart.cpp:399
+#, kde-format
+msgid "&Unfold File Tree"
+msgstr "Разгарну&ць дрэва файлаў"
+
+#
+#: cervisiapart.cpp:403
+#, kde-format
+msgid "Opens all branches of the file tree"
+msgstr "Адкрыццё ўсіх галін у іерархіі файлаў"
+
+#
+#: cervisiapart.cpp:407
+#, kde-format
+msgid "&Fold File Tree"
+msgstr "Згарнуць дрэва &файлаў"
+
+#
+#: cervisiapart.cpp:410
+#, kde-format
+msgid "Closes all branches of the file tree"
+msgstr "Зачыненне ўсіх галін у іерархіі файлаў"
+
+#
+#: cervisiapart.cpp:417
+#, kde-format
+msgid "&Tag/Branch..."
+msgstr "Пазна&ка/галіна..."
+
+#
+#: cervisiapart.cpp:420
+#, kde-format
+msgid "Creates a tag or branch for the selected files"
+msgstr "Стварыць пазнаку альбо галіну для вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:424
+#, kde-format
+msgid "&Delete Tag..."
+msgstr "Выдал&іць пазнаку..."
+
+#
+#: cervisiapart.cpp:427
+#, kde-format
+msgid "Deletes a tag from the selected files"
+msgstr "Выдаленне пазнакі з вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:431
+#, kde-format
+msgid "&Update to Tag/Date..."
+msgstr "Аднавіц&ь да пазнакі/даты..."
+
+#
+#: cervisiapart.cpp:434
+#, kde-format
+msgid "Updates the selected files to a given tag, branch or date"
+msgstr "Аднаўленне вылучаных файлаў да дадзенай пазнакі, галінкі альбо даты"
+
+#
+#: cervisiapart.cpp:438
+#, kde-format
+msgid "Update to &HEAD"
+msgstr "Аднавіць да &HEAD"
+
+#
+#: cervisiapart.cpp:441
+#, kde-format
+msgid "Updates the selected files to the HEAD revision"
+msgstr "Аднаўленне вылучаных файлаў да рэвізіі HEAD"
+
+#
+#: cervisiapart.cpp:445
+#, kde-format
+msgid "&Merge..."
+msgstr "Аб'&яднаць..."
+
+#
+#: cervisiapart.cpp:448
+#, kde-format
+msgid "Merges a branch or a set of modifications into the selected files"
+msgstr "Аб'яднанне галіны або набору мадыфікацый у вылучаныя файлы"
+
+#
+#: cervisiapart.cpp:452
+#, kde-format
+msgid "&Add Watch..."
+msgstr "Усталяваць назіранн&е..."
+
+#
+#: cervisiapart.cpp:455
+#, kde-format
+msgid "Adds a watch for the selected files"
+msgstr "Усталёўка назірання для вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:459
+#, kde-format
+msgid "&Remove Watch..."
+msgstr "&Выдаліць назіранне..."
+
+#
+#: cervisiapart.cpp:462
+#, kde-format
+msgid "Removes a watch from the selected files"
+msgstr "Выдаленне назірання з вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:466
+#, kde-format
+msgid "Show &Watchers"
+msgstr "&Паказаць назіральнікаў"
+
+#
+#: cervisiapart.cpp:469
+#, kde-format
+msgid "Shows the watchers of the selected files"
+msgstr "Паказаць назіральнікаў для вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:473
+#, kde-format
+msgid "Ed&it Files"
+msgstr "Р&эдагаваць файлы"
+
+#
+#: cervisiapart.cpp:476
+#, kde-format
+msgid "Edits (cvs edit) the selected files"
+msgstr "Рэдагаванне (cvs edit) вылучаных файлаў"
+
+#: cervisiapart.cpp:480
+#, kde-format
+msgid "U&nedit Files"
+msgstr "А&дкаціць рэдагаванне файлаў"
+
+#: cervisiapart.cpp:483
+#, kde-format
+msgid "Unedits (cvs unedit) the selected files"
+msgstr "Адкаціць рэдагаванне (cvs unedit) вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:487
+#, kde-format
+msgid "Show &Editors"
+msgstr "Пака&заць рэдактары"
+
+#
+#: cervisiapart.cpp:490
+#, kde-format
+msgid "Shows the editors of the selected files"
+msgstr "Паказаць рэдактары вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:494
+#, kde-format
+msgid "&Lock Files"
+msgstr "&Блакаваць файлы"
+
+#
+#: cervisiapart.cpp:497
+#, kde-format
+msgid "Locks the selected files, so that others cannot modify them"
+msgstr "Блакаванне вылучаных файлаў, іншыя не змогуць іх змяняць"
+
+#
+#: cervisiapart.cpp:501
+#, kde-format
+msgid "Unl&ock Files"
+msgstr "Разблакаваць фа&йлы"
+
+#
+#: cervisiapart.cpp:504
+#, kde-format
+msgid "Unlocks the selected files"
+msgstr "Разблакаванне вылучаных файлаў"
+
+#
+#: cervisiapart.cpp:508
+#, kde-format
+msgid "Create &Patch Against Repository..."
+msgstr "С&тварыць латкі для сховішча..."
+
+#
+#: cervisiapart.cpp:511
+#, kde-format
+msgid "Creates a patch from the modifications in your sandbox"
+msgstr "Стварэнне латкі са змен у вашай працоўнай копіі"
+
+#
+#: cervisiapart.cpp:518
+#, kde-format
+msgid "&Create..."
+msgstr "Ствар&ыць..."
+
+#
+#: cervisiapart.cpp:522
+#, kde-format
+msgid "&Checkout..."
+msgstr "&Checkout..."
+
+#: cervisiapart.cpp:525
+#, kde-format
+msgid "Allows you to checkout a module from a repository"
+msgstr "Дазваляе загрузіць модуль са сховішча"
+
+#
+#: cervisiapart.cpp:529
+#, kde-format
+msgid "&Import..."
+msgstr "&Імпарт..."
+
+#
+#: cervisiapart.cpp:532
+#, kde-format
+msgid "Allows you to import a module into a repository"
+msgstr "Дазваляе імпартаваць модуль у сховішча"
+
+#
+#: cervisiapart.cpp:536
+#, kde-format
+msgid "&Repositories..."
+msgstr "С&ховішчы..."
+
+#
+#: cervisiapart.cpp:539
+#, kde-format
+msgid "Configures a list of repositories you regularly use"
+msgstr "Налада спісу сховішчаў, якія вы найчасцей выкарыстоўваеце"
+
+#
+#: cervisiapart.cpp:546
+#, kde-format
+msgid "Hide All &Files"
+msgstr "Схаваць &усе файлы"
+
+#
+#: cervisiapart.cpp:549
+#, kde-format
+msgid "Determines whether only folders are shown"
+msgstr "Паказваць толькі тэчкі"
+
+#
+#: cervisiapart.cpp:553
+#, kde-format
+msgid "Hide Unmodified Files"
+msgstr "Схаваць не змененыя файлы"
+
+#
+#: cervisiapart.cpp:556
+#, kde-format
+msgid "Determines whether files with status up-to-date or unknown are hidden"
+msgstr ""
+"Дазваляе схаваць файлы, якія не патрабуюць абнаўленні (\"ОК\") або невядомыя "
+"файлы"
+
+#
+#: cervisiapart.cpp:561
+#, kde-format
+msgid "Hide Removed Files"
+msgstr "Схаваць выдаленыя файлы"
+
+#
+#: cervisiapart.cpp:564
+#, kde-format
+msgid "Determines whether removed files are hidden"
+msgstr "Дазваляе схаваць выдаленыя з CVS файлы"
+
+#
+#: cervisiapart.cpp:568
+#, kde-format
+msgid "Hide Non-CVS Files"
+msgstr "Схаваць файлы не з CVS"
+
+#
+#: cervisiapart.cpp:571
+#, kde-format
+msgid "Determines whether files not in CVS are hidden"
+msgstr "Дазваляе схаваць файлы, не ўваходзячыя ў CVS"
+
+#
+#: cervisiapart.cpp:575
+#, kde-format
+msgid "Hide Empty Folders"
+msgstr "Схаваць пустыя тэчкі"
+
+#
+#: cervisiapart.cpp:578
+#, kde-format
+msgid "Determines whether folders without visible entries are hidden"
+msgstr "Дазваляе схаваць тэчкі, якія не змяшчаюць бачных элементаў"
+
+#
+#: cervisiapart.cpp:582
+#, kde-format
+msgid "Create &Folders on Update"
+msgstr "&Ствараць тэчкі пры аднаўленні"
+
+#
+#: cervisiapart.cpp:585
+#, kde-format
+msgid "Determines whether updates create folders"
+msgstr "Дазваляе пры аднаўленні ствараць тэчкі"
+
+#
+#: cervisiapart.cpp:589
+#, kde-format
+msgid "&Prune Empty Folders on Update"
+msgstr "&Выдаляць пустыя тэчкі пры аднаўленні"
+
+#
+#: cervisiapart.cpp:592
+#, kde-format
+msgid "Determines whether updates remove empty folders"
+msgstr "Дазваляе пры аднаўленні выдаляць пустыя тэчкі"
+
+#
+#: cervisiapart.cpp:596
+#, kde-format
+msgid "&Update Recursively"
+msgstr "Адна&ўляць рэкурсіўна"
+
+#
+#: cervisiapart.cpp:599
+#, kde-format
+msgid "Determines whether updates are recursive"
+msgstr "Дазваляе вырабляць аднаўленні рэкурсіўна"
+
+#
+#: cervisiapart.cpp:603
+#, kde-format
+msgid "C&ommit && Remove Recursively"
+msgstr "Пе&радаваць і выдаляць рэкурсіўна"
+
+#
+#: cervisiapart.cpp:606
+#, kde-format
+msgid "Determines whether commits and removes are recursive"
+msgstr "Дазваляе перадаваць і выдаляць рэкурсіўна"
+
+#
+#: cervisiapart.cpp:610
+#, kde-format
+msgid "Do cvs &edit Automatically When Necessary"
+msgstr "Аўтаматычна выконваць cvs &edit калі неабходна"
+
+#
+#: cervisiapart.cpp:613
+#, kde-format
+msgid "Determines whether automatic cvs editing is active"
+msgstr "Дазваляе выконваць аўтаматычнае рэдагаванне cvs"
+
+#
+#: cervisiapart.cpp:617
+#, kde-format
+msgid "Configure Cervisia..."
+msgstr "Наладзіць Cervisia..."
+
+#
+#: cervisiapart.cpp:620
+#, kde-format
+msgid "Allows you to configure the Cervisia KPart"
+msgstr "Налада параметраў кампаненты Cervisia"
+
+#
+#: cervisiapart.cpp:629
+#, kde-format
+msgid "CVS &Manual"
+msgstr "Даведка па &CVS"
+
+#
+#: cervisiapart.cpp:632
+#, kde-format
+msgid "Opens the help browser with the CVS documentation"
+msgstr "Паказаць дакументацыю па CVS"
+
+#
+#: cervisiapart.cpp:639
+#, kde-format
+msgid "Unfold Folder"
+msgstr "Разгарнуць тэчку"
+
+#
+#: cervisiapart.cpp:748
+#, kde-format
+msgid "Cervisia Part"
+msgstr "Кампанент Cervisia"
+
+#
+#: cervisiapart.cpp:749 main.cpp:144
+#, kde-format
+msgid "A CVS frontend"
+msgstr "Абалонка для CVS"
+
+#
+#: cervisiapart.cpp:751 main.cpp:145
+#, fuzzy, kde-format
+#| msgid ""
+#| "Copyright (c) 1999-2002 Bernd Gehrmann\n"
+#| "Copyright (c) 2002-2004 the Cervisia authors"
+msgid ""
+"Copyright (c) 1999-2002 Bernd Gehrmann\n"
+"Copyright (c) 2002-2008 the Cervisia authors"
+msgstr ""
+"Аўтарскія правы (c) 1999-2002 Бернд Германн (Bernd Gehrmann)\n"
+"Аўтарскія правы (c) 2002-2004 Распрацоўшчыкі Cervisia"
+
+#: cervisiapart.cpp:755 main.cpp:149
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr ""
+
+#
+#: cervisiapart.cpp:755 main.cpp:149
+#, kde-format
+msgid "Original author and former maintainer"
+msgstr "Аўтар ідэі, папярэдні каардынатар"
+
+#: cervisiapart.cpp:757 main.cpp:151
+#, kde-format
+msgid "Christian Loose"
+msgstr ""
+
+#
+#: cervisiapart.cpp:757 main.cpp:151
+#, kde-format
+msgid "Maintainer"
+msgstr "Каардынатар"
+
+#: cervisiapart.cpp:759 main.cpp:153
+#, kde-format
+msgid "André Wöbbeking"
+msgstr ""
+
+#
+#: cervisiapart.cpp:759 main.cpp:153
+#, kde-format
+msgid "Developer"
+msgstr "Распрацоўнік"
+
+#: cervisiapart.cpp:761 main.cpp:155
+#, kde-format
+msgid "Carlos Woelz"
+msgstr ""
+
+#
+#: cervisiapart.cpp:761 main.cpp:155
+#, kde-format
+msgid "Documentation"
+msgstr "Дакументацыя"
+
+#: cervisiapart.cpp:764 main.cpp:158
+#, kde-format
+msgid "Richard Moore"
+msgstr ""
+
+#
+#: cervisiapart.cpp:764 main.cpp:158
+#, kde-format
+msgid "Conversion to KPart"
+msgstr "Пераўтварэнне ў KPart"
+
+#: cervisiapart.cpp:766 main.cpp:160
+#, kde-format
+msgid "Laurent Montel"
+msgstr ""
+
+#
+#: cervisiapart.cpp:766 main.cpp:160
+#, kde-format
+msgid "Conversion to D-Bus"
+msgstr "Пераўтварэнне ў D-Bus"
+
+#: cervisiapart.cpp:768 main.cpp:162
+#, kde-format
+msgid "Martin Koller"
+msgstr ""
+
+#: cervisiapart.cpp:768 main.cpp:162
+#, kde-format
+msgid "Port to KDE Frameworks 5"
+msgstr ""
+
+#
+#: cervisiapart.cpp:777
+#, kde-format
+msgid "Open Sandbox"
+msgstr "Адкрыць працоўную копію"
+
+#
+#: cervisiapart.cpp:835
+#, kde-format
+msgid "CVS Edit"
+msgstr "Рэдагаваць CVS"
+
+#
+#: cervisiapart.cpp:1406 diffdialog.cpp:280 logdialog.cpp:516
+#, kde-format
+msgid "CVS Diff"
+msgstr "Адрозненні CVS"
+
+#
+#: cervisiapart.cpp:1421 diffdialog.cpp:514 logdialog.cpp:531
+#: resolvedialog.cpp:384
+#, kde-format
+msgid "Could not open file for writing."
+msgstr "Немагчыма адкрыць файл для запісу."
+
+#
+#: cervisiapart.cpp:1592
+#, kde-format
+msgid "The revision looks invalid."
+msgstr "Рэвізія выглядае памылковай."
+
+#
+#: cervisiapart.cpp:1599
+#, kde-format
+msgid "This is the first revision of the branch."
+msgstr "Гэта першая рэвізія ў галіне."
+
+#
+#: cervisiapart.cpp:1725
+#, kde-format
+msgid "Invoking help on Cervisia"
+msgstr "Выклік дапамогі па Cervisia"
+
+#
+#: cervisiapart.cpp:1732
+#, kde-format
+msgid "Invoking help on CVS"
+msgstr "Выклік дапамогі па CVS"
+
+#
+#: cervisiapart.cpp:1768
+#, kde-format
+msgid "Done"
+msgstr "Завершана"
+
+#
+#: cervisiapart.cpp:1777
+#, kde-format
+msgid "A CVS commit to repository %1 is done"
+msgstr "Перадача дадзеных у CVS-сховішча %1 завершана"
+
+#
+#: cervisiapart.cpp:1797
+#, kde-format
+msgid ""
+"This is not a CVS folder.\n"
+"If you did not intend to use Cervisia, you can switch view modes within "
+"Konqueror."
+msgstr ""
+"Гэта не тэчка CVS.\n"
+"Калі вы не збіраецеся выкарыстоўваць Cervisia, вы можаце пераключыць рэжымы "
+"адлюстравання ў Konqueror."
+
+#
+#. i18n: ectx: label, entry (ConflictColor), group (Colors)
+#: cervisiapart.kcfg:24
+#, kde-format
+msgid ""
+"The foreground color used to highlight files with a conflict in the file "
+"view."
+msgstr "Колер імёнаў файлаў з канфліктамі ў дрэве файлаў."
+
+#
+#. i18n: ectx: label, entry, group (General)
+#: cervisiapart.kcfg:46
+#, kde-format
+msgid "Delay (ms) until the progress dialog appears."
+msgstr "Затрымка перад высновай інфармацыі аб выкананні, мс."
+
+#
+#: cervisiashell.cpp:60
+#, kde-format
+msgid "The Cervisia library could not be loaded."
+msgstr "Не атрымалася загрузіць бібліятэку Cervisia."
+
+#
+#: cervisiashell.cpp:95
+#, kde-format
+msgid "Allows you to configure the toolbar"
+msgstr "Дазваляе наладзіць панель прылад"
+
+#
+#: cervisiashell.cpp:100
+#, kde-format
+msgid "Allows you to customize the keybindings"
+msgstr "Дазваляе наладзіць камбінацыі клавіш"
+
+#
+#: cervisiashell.cpp:105
+#, kde-format
+msgid "Exits Cervisia"
+msgstr "Выхад з Cervisia"
+
+#
+#. i18n: ectx: Menu (file)
+#: cervisiashellui.rc:4 cervisiaui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Файл"
+
+#
+#. i18n: ectx: Menu (settings)
+#: cervisiashellui.rc:7 cervisiaui.rc:70
+#, kde-format
+msgid "&Settings"
+msgstr "&Настаўленні"
+
+#. i18n: ectx: Menu (help)
+#: cervisiashellui.rc:11 cervisiaui.rc:80
+#, kde-format
+msgid "&Help"
+msgstr "&Дапамога"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: cervisiashellui.rc:16 cervisiaui.rc:84
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Галоўная панель начыння"
+
+#
+#. i18n: ectx: Menu (view)
+#: cervisiaui.rc:24
+#, kde-format
+msgid "&View"
+msgstr "&Выгляд"
+
+#
+#. i18n: ectx: Menu (advanced)
+#: cervisiaui.rc:43
+#, kde-format
+msgid "&Advanced"
+msgstr "&Дадаткова"
+
+#
+#. i18n: ectx: Menu (repository)
+#: cervisiaui.rc:63
+#, kde-format
+msgid "&Repository"
+msgstr "&Сховішча"
+
+#
+#: changelogdialog.cpp:51
+#, kde-format
+msgid "Edit ChangeLog"
+msgstr "Рэдагаваць ChangeLog"
+
+#
+#: changelogdialog.cpp:93
+#, kde-format
+msgid "The ChangeLog file could not be written."
+msgstr "Файл ChangeLog не можа быць запісаны."
+
+#
+#: changelogdialog.cpp:113
+#, kde-format
+msgid "A ChangeLog file does not exist. Create one?"
+msgstr "Файл ChangeLog не існуе. Стварыць яго?"
+
+#
+#: changelogdialog.cpp:114
+#, kde-format
+msgid "Create"
+msgstr "Стварыць"
+
+#
+#: changelogdialog.cpp:123
+#, kde-format
+msgid "The ChangeLog file could not be read."
+msgstr "Файл ChangeLog не можа быць прачытаны."
+
+#
+#: checkoutdialog.cpp:62 checkoutdialog.cpp:378
+#, kde-format
+msgid "CVS Checkout"
+msgstr "CVS Checkout"
+
+#
+#: checkoutdialog.cpp:62
+#, kde-format
+msgid "CVS Import"
+msgstr "Імпарт CVS"
+
+#
+#: checkoutdialog.cpp:98 checkoutdialog.cpp:115
+#, kde-format
+msgid "&Module:"
+msgstr "&Модуль:"
+
+#
+#: checkoutdialog.cpp:107 checkoutdialog.cpp:122 mergedialog.cpp:69
+#: tagdialog.cpp:75 updatedialog.cpp:70
+#, kde-format
+msgid "Fetch &List"
+msgstr "Атрымаць сп&іс"
+
+#
+#: checkoutdialog.cpp:130
+#, kde-format
+msgid "&Branch tag:"
+msgstr "&Пазнака галіны:"
+
+#
+#: checkoutdialog.cpp:136
+#, kde-format
+msgid "Re&cursive checkout"
+msgstr "&Рэкурсіўны checkout"
+
+#
+#: checkoutdialog.cpp:159
+#, kde-format
+msgid "Working &folder:"
+msgstr "Працоўная &тэчка:"
+
+#
+#: checkoutdialog.cpp:169
+#, kde-format
+msgid "&Vendor tag:"
+msgstr "П&азнака распрацоўніка:"
+
+#
+#: checkoutdialog.cpp:177
+#, kde-format
+msgid "&Release tag:"
+msgstr "Па&знака рэлізу:"
+
+#
+#: checkoutdialog.cpp:185
+#, kde-format
+msgid "&Ignore files:"
+msgstr "І&гнараваць файлы:"
+
+#
+#: checkoutdialog.cpp:193
+#, kde-format
+msgid "&Comment:"
+msgstr "&Каментар:"
+
+#
+#: checkoutdialog.cpp:197
+#, kde-format
+msgid "Import as &binaries"
+msgstr "Імпарт як &бінарных файлаў"
+
+#
+#: checkoutdialog.cpp:201
+#, kde-format
+msgid "Use file's modification time as time of import"
+msgstr "Выкарыстаць час апошняй змены файла як час імпарта"
+
+#
+#: checkoutdialog.cpp:210
+#, kde-format
+msgid "Chec&k out as:"
+msgstr "Пра&верка ў:"
+
+#
+#: checkoutdialog.cpp:214
+#, kde-format
+msgid "Ex&port only"
+msgstr "Толькі &экспарт"
+
+#
+#: checkoutdialog.cpp:323
+#, kde-format
+msgid "Please choose an existing working folder."
+msgstr "Вылучыце наяўную працоўную тэчку."
+
+#
+#: checkoutdialog.cpp:328 checkoutdialog.cpp:413
+#, kde-format
+msgid "Please specify a module name."
+msgstr "Вызначце імя модуля."
+
+#
+#: checkoutdialog.cpp:337
+#, kde-format
+msgid "Please specify a vendor tag and a release tag."
+msgstr "Вызначце пазнаку распрацоўніка і рэлізу."
+
+#
+#: checkoutdialog.cpp:343
+#, kde-format
+msgid ""
+"Tags must start with a letter and may contain\n"
+"letters, digits and the characters '-' and '_'."
+msgstr ""
+"Пазнакі павінны пачынацца з літары і могуць утрымоўваць\n"
+" літары, лічбы і знакі '-' або '_'."
+
+#
+#: checkoutdialog.cpp:353
+#, kde-format
+msgid "A branch must be specified for export."
+msgstr "Для экспарту неабходна вызначыць галіну."
+
+#
+#: checkoutdialog.cpp:407
+#, kde-format
+msgid "Please specify a repository."
+msgstr "Вызначце сховішча."
+
+#
+#: checkoutdialog.cpp:423
+#, kde-format
+msgid "CVS Remote Log"
+msgstr "Выдалены часопіс CVS"
+
+#
+#: commitdialog.cpp:68
+#, kde-format
+msgid "CVS Commit"
+msgstr "Размяшчэнне ў CVS"
+
+#
+#: commitdialog.cpp:85 logdialog.cpp:207
+#, kde-format
+msgid "&Diff"
+msgstr "&Адрозненні"
+
+#
+#: commitdialog.cpp:87
+#, kde-format
+msgid "Commit the following &files:"
+msgstr "Перадаць наступныя &файлы:"
+
+#
+#: commitdialog.cpp:99
+#, kde-format
+msgid "Older &messages:"
+msgstr "Старыя &паведамленні:"
+
+#
+#: commitdialog.cpp:109
+#, kde-format
+msgid "&Log message:"
+msgstr "Па&ведамленне часопіса:"
+
+#
+#: commitdialog.cpp:118
+#, kde-format
+msgid "Use log message &template"
+msgstr "Выкарыстаць &шаблон для паведамленняў часопіса"
+
+#
+#: commitdialog.cpp:201
+#, kde-format
+msgid "Current"
+msgstr "Бягучы"
+
+#
+#: cvsinitdialog.cpp:43
+#, kde-format
+msgid "Create New Repository (cvs init)"
+msgstr "Стварыць новае сховішча (cvs init)"
+
+#
+#: cvsinitdialog.cpp:55
+#, kde-format
+msgid "Repository folder:"
+msgstr "Тэчка сховішча:"
+
+#
+#: diffdialog.cpp:103
+#, kde-format
+msgid "Synchronize scroll bars"
+msgstr "Сінхранізаваць палосы прагорткі"
+
+#
+#: diffdialog.cpp:113 diffdialog.cpp:436
+#, fuzzy, kde-format
+#| msgid "%1 differences"
+msgid "%1 difference"
+msgid_plural "%1 differences"
+msgstr[0] "%1 адрозненняў"
+msgstr[1] "%1 адрозненняў"
+msgstr[2] "%1 адрозненняў"
+
+#
+#: diffdialog.cpp:250
+#, kde-format
+msgid "CVS Diff: %1"
+msgstr "Адрозненні CVS: %1"
+
+#
+#: diffdialog.cpp:252
+#, kde-format
+msgid "Repository:"
+msgstr "Сховішча:"
+
+#
+#: diffdialog.cpp:253 diffdialog.cpp:256
+#, kde-format
+msgid "Revision "
+msgstr "Рэвізія"
+
+#
+#: diffdialog.cpp:255
+#, kde-format
+msgid "Working dir:"
+msgstr "Працоўная тэчка:"
+
+#
+#: diffdialog.cpp:434 resolvedialog.cpp:419
+#, kde-format
+msgid "%1 of %2"
+msgstr "%1 з %2"
+
+#
+#: diffview.cpp:281 diffview.cpp:352
+#, kde-format
+msgid "Delete"
+msgstr "Выдалиць"
+
+#: diffview.cpp:282 diffview.cpp:351
+#, kde-format
+msgid "Insert"
+msgstr "Уставіць"
+
+#
+#: diffview.cpp:283 diffview.cpp:350
+#, kde-format
+msgid "Change"
+msgstr "Змяніць"
+
+#
+#: editwithmenu.cpp:51
+#, kde-format
+msgid "Edit With"
+msgstr "Рэдагаваць у"
+
+#
+#: entry_status.cpp:37
+#, kde-format
+msgid "Locally Modified"
+msgstr "Зменены лакальна"
+
+#
+#: entry_status.cpp:40
+#, kde-format
+msgid "Locally Added"
+msgstr "Даданы лакальна"
+
+#
+#: entry_status.cpp:43
+#, kde-format
+msgid "Locally Removed"
+msgstr "Выдалены лакальна"
+
+#
+#: entry_status.cpp:46
+#, kde-format
+msgid "Needs Update"
+msgstr "Неабходна аднаўленне"
+
+#
+#: entry_status.cpp:49
+#, kde-format
+msgid "Needs Patch"
+msgstr "Неабходна латка"
+
+#
+#: entry_status.cpp:52
+#, kde-format
+msgid "Needs Merge"
+msgstr "Неабходна аб'яднанне"
+
+#
+#: entry_status.cpp:55
+#, kde-format
+msgid "Up to Date"
+msgstr "Аднаўленне не патрабуецца"
+
+#
+#: entry_status.cpp:58
+#, kde-format
+msgid "Conflict"
+msgstr "Канфлікт"
+
+#
+#: entry_status.cpp:61
+#, kde-format
+msgid "Updated"
+msgstr "Адноўлены"
+
+#
+#: entry_status.cpp:64
+#, kde-format
+msgid "Patched"
+msgstr "Выпраўлены"
+
+#
+#: entry_status.cpp:67
+#, kde-format
+msgid "Removed"
+msgstr "Выдалены"
+
+#
+#: entry_status.cpp:70
+#, kde-format
+msgid "Not in CVS"
+msgstr "Не ў CVS"
+
+#
+#: entry_status.cpp:73
+#, kde-format
+msgid "Unknown"
+msgstr "Невядомы"
+
+#
+#: historydialog.cpp:112 historydialog.cpp:364
+#, kde-format
+msgid "Commit, Modified "
+msgstr "Перадача, зменены"
+
+#
+#: historydialog.cpp:113 historydialog.cpp:365
+#, kde-format
+msgid "Commit, Added "
+msgstr "Перадача, даданы"
+
+#
+#: historydialog.cpp:114 historydialog.cpp:366
+#, kde-format
+msgid "Commit, Removed "
+msgstr "Перадача, выдалены"
+
+#
+#: historydialog.cpp:120 historydialog.cpp:356
+#, kde-format
+msgid "Checkout "
+msgstr "Checkout "
+
+#
+#: historydialog.cpp:126 loginfo.cpp:63
+#, kde-format
+msgid "Tag"
+msgstr "Пазнака"
+
+#
+#: historydialog.cpp:150 loglist.cpp:119
+#, kde-format
+msgid "Date"
+msgstr "Дата"
+
+#
+#: historydialog.cpp:150
+#, kde-format
+msgid "Event"
+msgstr "Падзея"
+
+#
+#: historydialog.cpp:150 loglist.cpp:119
+#, kde-format
+msgid "Author"
+msgstr "Аўтар"
+
+#
+#: historydialog.cpp:151 loglist.cpp:119 updateview.cpp:53
+#, kde-format
+msgid "Revision"
+msgstr "Рэвізія"
+
+#
+#: historydialog.cpp:151 watchersmodel.cpp:96
+#, kde-format
+msgid "File"
+msgstr "Файл"
+
+#
+#: historydialog.cpp:151
+#, kde-format
+msgid "Repo Path"
+msgstr "Шлях да сховішча"
+
+#
+#: historydialog.cpp:155
+#, kde-format
+msgid "Show c&ommit events"
+msgstr "Паказаць &падзеі перадачы"
+
+#
+#: historydialog.cpp:158
+#, kde-format
+msgid "Show ch&eckout events"
+msgstr "Паказаць п&адзеі checkout"
+
+#
+#: historydialog.cpp:161
+#, kde-format
+msgid "Show &tag events"
+msgstr "Паказваць па&дзеі пазнак"
+
+#
+#: historydialog.cpp:164
+#, kde-format
+msgid "Show &other events"
+msgstr "Паказваць іншыя пад&зеі"
+
+#
+#: historydialog.cpp:167
+#, kde-format
+msgid "Only &user:"
+msgstr "Толькі &карыстальнік:"
+
+#
+#: historydialog.cpp:169
+#, kde-format
+msgid "Only &filenames matching:"
+msgstr "Толькі &назвы файлаў супадальныя з:"
+
+#
+#: historydialog.cpp:171
+#, kde-format
+msgid "Only &folders matching:"
+msgstr "Толькі &тэчкі супадаюць:"
+
+#
+#: historydialog.cpp:314 historydialog.cpp:320
+#, kde-format
+msgid "CVS History"
+msgstr "Гісторыя CVS"
+
+#
+#: historydialog.cpp:357
+#, kde-format
+msgid "Tag "
+msgstr "Пазнака"
+
+#
+#: historydialog.cpp:358
+#, kde-format
+msgid "Release "
+msgstr "Рэліз"
+
+#
+#: historydialog.cpp:359
+#, kde-format
+msgid "Update, Deleted "
+msgstr "Аднаўленне, выдалены"
+
+#
+#: historydialog.cpp:360
+#, kde-format
+msgid "Update, Copied "
+msgstr "Аднаўленне, скапіраваны"
+
+#
+#: historydialog.cpp:361
+#, kde-format
+msgid "Update, Merged "
+msgstr "Аднаўленне, аб'яднаны"
+
+#
+#: historydialog.cpp:362
+#, kde-format
+msgid "Update, Conflict "
+msgstr "Аднаўленне, канфлікт"
+
+#
+#: historydialog.cpp:363
+#, kde-format
+msgid "Update, Patched "
+msgstr "Аднаўленне, зменены"
+
+#
+#: historydialog.cpp:367
+#, kde-format
+msgid "Unknown "
+msgstr "Невядомы"
+
+#
+#: logdialog.cpp:91
+#, fuzzy, kde-format
+#| msgid "S&earch:"
+msgid "Search:"
+msgstr "&Шукаць:"
+
+#
+#: logdialog.cpp:104
+#, kde-format
+msgid "&Tree"
+msgstr "&Дрэва"
+
+#
+#: logdialog.cpp:105
+#, kde-format
+msgid "&List"
+msgstr "&Спіс"
+
+#
+#: logdialog.cpp:106
+#, kde-format
+msgid "CVS &Output"
+msgstr "&Вывад CVS"
+
+#
+#: logdialog.cpp:112
+#, kde-format
+msgid ""
+"Choose revision A by clicking with the left mouse button,\n"
+"revision B by clicking with the middle mouse button."
+msgstr ""
+"Вылучыце рэвізію A левай кнопкай мышы,\n"
+"рэвізію B сярэдняй кнопкай мышы."
+
+#
+#: logdialog.cpp:141
+#, kde-format
+msgid "Revision A:"
+msgstr "Рэвізія A:"
+
+#
+#: logdialog.cpp:141
+#, kde-format
+msgid "Revision B:"
+msgstr "Рэвізія B:"
+
+#: logdialog.cpp:150
+#, kde-format
+msgid "Select by tag:"
+msgstr "Выбар па пазнацы:"
+
+#
+#: logdialog.cpp:158
+#, kde-format
+msgid "Author:"
+msgstr "Аўтар:"
+
+#
+#: logdialog.cpp:166
+#, kde-format
+msgid "Date:"
+msgstr "Дата:"
+
+#
+#: logdialog.cpp:174
+#, kde-format
+msgid "Comment/Tags:"
+msgstr "Каментары/пазнакі:"
+
+#
+#: logdialog.cpp:206
+#, fuzzy, kde-format
+#| msgid "&Annotate"
+msgid "&Annotate A"
+msgstr "&Анатацыя"
+
+#: logdialog.cpp:208
+#, kde-format
+msgid "&Find"
+msgstr "&Знайсці"
+
+#
+#: logdialog.cpp:214
+#, kde-format
+msgid ""
+"This revision is used when you click Annotate.\n"
+"It is also used as the first item of a Diff operation."
+msgstr ""
+"Гэтая рэвізія выкарыстоўваецца ў анатацыях \n"
+"і як першы аргумент аперацыі пошуку адрозненняў."
+
+#
+#: logdialog.cpp:218
+#, kde-format
+msgid "This revision is used as the second item of a Diff operation."
+msgstr ""
+"Гэтая рэвізія выкарыстоўваецца як другі аргумент аперацыі пошуку адрозненняў."
+
+#
+#: logdialog.cpp:231
+#, fuzzy, kde-format
+#| msgid "&View"
+msgid "&View A"
+msgstr "&Выгляд"
+
+#
+#: logdialog.cpp:232
+#, kde-format
+msgid "Create Patch..."
+msgstr "Стварыць латку..."
+
+#
+#: logdialog.cpp:276
+#, kde-format
+msgid "CVS Log: %1"
+msgstr "Часопіс CVS: %1"
+
+#
+#: logdialog.cpp:282
+#, kde-format
+msgid "CVS Log"
+msgstr "Часопіс CVS"
+
+#
+#: logdialog.cpp:440
+#, kde-format
+msgid " (Branchpoint)"
+msgstr " (Кропка галіны)"
+
+#
+#: logdialog.cpp:461
+#, kde-format
+msgid "Please select revision A or B first."
+msgstr "Спачатку вылучыце рэвізію A або B."
+
+#
+#: logdialog.cpp:482
+#, kde-format
+msgid "View File"
+msgstr "Паказаць файл"
+
+#
+#: logdialog.cpp:500 logdialog.cpp:566
+#, kde-format
+msgid "Please select revision A or revisions A and B first."
+msgstr "Спачатку вылучыце рэвізію A, або рэвізіі A і B."
+
+#
+#: loginfo.cpp:57
+#, kde-format
+msgid "Branchpoint"
+msgstr "Кропка галінкі"
+
+#
+#: loginfo.cpp:60
+#, kde-format
+msgid "On Branch"
+msgstr "У галіне"
+
+#
+#: loglist.cpp:120
+#, kde-format
+msgid "Branch"
+msgstr "Галіна"
+
+#
+#: loglist.cpp:120
+#, kde-format
+msgid "Comment"
+msgstr "Каментар"
+
+#
+#: loglist.cpp:120
+#, kde-format
+msgid "Tags"
+msgstr "Пазнакі"
+
+#
+#: logplainview.cpp:49
+#, kde-format
+msgid "revision %1"
+msgstr "рэвізія %1"
+
+#
+#: logplainview.cpp:52
+#, kde-format
+msgid "Select for revision A"
+msgstr "Вылучыце для рэвізіі A"
+
+#
+#: logplainview.cpp:55
+#, kde-format
+msgid "Select for revision B"
+msgstr "Вылучыце для рэвізіі B"
+
+#
+#: logplainview.cpp:58
+#, kde-format
+msgid "date: %1; author: %2"
+msgstr "дата: %1; аўтар: %2"
+
+#
+#: main.cpp:172
+#, kde-format
+msgid "The sandbox to be loaded"
+msgstr "Працоўная копія, якая будзе загружана"
+
+#
+#: main.cpp:173
+#, fuzzy, kde-format
+#| msgid "Show resolve dialog for the given file"
+msgid "Show resolve dialog for the given file."
+msgstr "Паказаць дыялог вырашэння канфліктаў для дадзенага файла"
+
+#
+#: main.cpp:174
+#, fuzzy, kde-format
+#| msgid "Show log dialog for the given file"
+msgid "Show log dialog for the given file."
+msgstr "Паказаць дыялог часопіса для дадзенага файла"
+
+#
+#: main.cpp:175
+#, fuzzy, kde-format
+#| msgid "Show annotation dialog for the given file"
+msgid "Show annotation dialog for the given file."
+msgstr "Паказаць дыялог анатацыі для дадзенага файла"
+
+#
+#: mergedialog.cpp:45
+#, kde-format
+msgid "CVS Merge"
+msgstr "Аб'яднанне CVS"
+
+#
+#: mergedialog.cpp:60
+#, kde-format
+msgid "Merge from &branch:"
+msgstr "Аб'яднаць з &галіны:"
+
+#
+#: mergedialog.cpp:79
+#, kde-format
+msgid "Merge &modifications:"
+msgstr "Аб'яднаць &мадыфікацыі:"
+
+#
+#: mergedialog.cpp:82
+#, kde-format
+msgid "between tag: "
+msgstr "паміж пазнакай: "
+
+#
+#: mergedialog.cpp:88
+#, kde-format
+msgid "and tag: "
+msgstr "і пазнакай: "
+
+#
+#: mergedialog.cpp:94 updatedialog.cpp:88
+#, kde-format
+msgid "Fetch L&ist"
+msgstr "Атрымаць сп&іс"
+
+#
+#: misc.cpp:84
+#, kde-format
+msgid "CVS Status"
+msgstr "Стан CVS"
+
+#
+#: misc.cpp:218
+#, kde-format
+msgid "Overwrite the file"
+msgstr "Замяніць файл"
+
+#
+#: misc.cpp:221
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "Файл \"%1\" ужо існуе. Замяніць яго?"
+
+#
+#: misc.cpp:222
+#, kde-format
+msgid "Overwrite File?"
+msgstr "Замяніць файл?"
+
+#
+#: patchoptiondialog.cpp:61
+#, kde-format
+msgid "Context"
+msgstr "Кантэкстны"
+
+#
+#: patchoptiondialog.cpp:62
+#, kde-format
+msgid "Normal"
+msgstr "Звычайны"
+
+#
+#: patchoptiondialog.cpp:63
+#, kde-format
+msgid "Unified"
+msgstr "Уніфікаваны"
+
+#
+#: patchoptiondialog.cpp:67
+#, kde-format
+msgid "Output Format"
+msgstr "Фармат вываду"
+
+#
+#: patchoptiondialog.cpp:77
+#, kde-format
+msgid "&Number of context lines:"
+msgstr "&Колькасць кантэкстных радкоў:"
+
+#
+#: patchoptiondialog.cpp:93
+#, kde-format
+msgid "Ignore added or removed empty lines"
+msgstr "Ігнараваць даданыя або выдаленыя пустыя радкі"
+
+#
+#: patchoptiondialog.cpp:94
+#, kde-format
+msgid "Ignore changes in the amount of whitespace"
+msgstr "Ігнараваць змены колькасці прабелаў"
+
+#
+#: patchoptiondialog.cpp:95
+#, kde-format
+msgid "Ignore all whitespace"
+msgstr "Ігнараваць прабелы/табуляцыю"
+
+#
+#: patchoptiondialog.cpp:96
+#, kde-format
+msgid "Ignore changes in case"
+msgstr "Ігнараваць змены рэгістра"
+
+#
+#: patchoptiondialog.cpp:103
+#, kde-format
+msgid "Ignore Options"
+msgstr "Параметры ігнаравання"
+
+#: protocolview.cpp:93
+#, kde-format
+msgid "Clear"
+msgstr "Ачысціць"
+
+#
+#: protocolview.cpp:135
+#, kde-format
+msgid "[Exited with status %1]\n"
+msgstr "[Завершана са статутам %1]\n"
+
+#
+#: protocolview.cpp:137
+#, kde-format
+msgid "[Finished]\n"
+msgstr "[Скончана]\n"
+
+#
+#: protocolview.cpp:140
+#, kde-format
+msgid "[Aborted]\n"
+msgstr "[Перарвана]\n"
+
+#: repositorydialog.cpp:138
+#, kde-format
+msgid "Default"
+msgstr "Прадвызначаны"
+
+#
+#: repositorydialog.cpp:157
+#, kde-format
+msgid "Logged in"
+msgstr "Увайшоў"
+
+#
+#: repositorydialog.cpp:157
+#, kde-format
+msgid "Not logged in"
+msgstr "Не ўвайшоў"
+
+#: repositorydialog.cpp:159
+#, kde-format
+msgid "No login required"
+msgstr "Няма неабходнасці ў лагіне"
+
+#
+#: repositorydialog.cpp:172
+#, kde-format
+msgid "Configure Access to Repositories"
+msgstr "Кіраванне доступам да сховішчаў"
+
+#
+#: repositorydialog.cpp:193
+#, kde-format
+msgid "Repository"
+msgstr "Сховішча"
+
+#
+#: repositorydialog.cpp:193
+#, kde-format
+msgid "Method"
+msgstr "Метад"
+
+#
+#: repositorydialog.cpp:194
+#, kde-format
+msgid "Compression"
+msgstr "Сціск"
+
+#
+#: repositorydialog.cpp:194 settingsdialog.cpp:306 updateview.cpp:53
+#, kde-format
+msgid "Status"
+msgstr "Стан"
+
+#
+#: repositorydialog.cpp:203
+#, fuzzy, kde-format
+#| msgid "&Add..."
+msgid "Add..."
+msgstr "&Дадаць..."
+
+#
+#: repositorydialog.cpp:204
+#, fuzzy, kde-format
+#| msgid "&Modify..."
+msgid "Modify..."
+msgstr "&Змяніць..."
+
+#
+#: repositorydialog.cpp:206
+#, kde-format
+msgid "Login..."
+msgstr "Увайсці..."
+
+#
+#: repositorydialog.cpp:207
+#, kde-format
+msgid "Logout"
+msgstr "Выйсці"
+
+#
+#: repositorydialog.cpp:356
+#, kde-format
+msgid "This repository is already known."
+msgstr "Гэта сховішча ўжо вядома."
+
+#
+#: repositorydialog.cpp:450
+#, kde-format
+msgid "Login failed."
+msgstr "Не атрымалася ўвайсці."
+
+#
+#: repositorydialog.cpp:470
+#, kde-format
+msgid "CVS Logout"
+msgstr "Выхад з CVS"
+
+#
+#: resolvedialog.cpp:142
+#, kde-format
+msgid "Your version (A):"
+msgstr "Ваша рэвізія (A):"
+
+#
+#: resolvedialog.cpp:151
+#, kde-format
+msgid "Other version (B):"
+msgstr "Іншая рэвізія (B):"
+
+#
+#: resolvedialog.cpp:163
+#, kde-format
+msgid "Merged version:"
+msgstr "Аб'яднаная версія:"
+
+#
+#: resolvedialog.cpp:260
+#, kde-format
+msgid "CVS Resolve: %1"
+msgstr "Вырашенне канфліктаў CVS: %1"
+
+#
+#: resolvedialog.cpp:421
+#, kde-format
+msgid "%1 conflicts"
+msgstr "%1 канфліктаў"
+
+#
+#: settingsdialog.cpp:73
+#, kde-format
+msgid "Configure Cervisia"
+msgstr "Настаўленне Cervisia"
+
+#
+#: settingsdialog.cpp:226
+#, kde-format
+msgid "General"
+msgstr "Агульныя"
+
+#
+#: settingsdialog.cpp:231
+#, kde-format
+msgid "&User name for the change log editor:"
+msgstr "&Імя карыстльніка - рэдактара файлаў ChangeLog:"
+
+#
+#: settingsdialog.cpp:239
+#, kde-format
+msgid "&Path to CVS executable, or 'cvs':"
+msgstr "&Шлях да праграмы CVS, альбо 'cvs':"
+
+#
+#: settingsdialog.cpp:258
+#, kde-format
+msgid "Diff Viewer"
+msgstr "Адрозненні"
+
+#
+#: settingsdialog.cpp:263
+#, kde-format
+msgid "&Number of context lines in diff dialog:"
+msgstr "&Колькасць кантэкстных радкоў у дыялогу адрозненняў:"
+
+#
+#: settingsdialog.cpp:271
+#, kde-format
+msgid "Additional &options for cvs diff:"
+msgstr "Дадатковыя &опцыі для адрозненняў у CVS:"
+
+#: settingsdialog.cpp:278
+#, kde-format
+msgid "Tab &width in diff dialog:"
+msgstr "Шы&рыня карткі дыялогу адрозненняў:"
+
+#
+#: settingsdialog.cpp:286
+#, kde-format
+msgid "External diff &frontend:"
+msgstr "&Знешняя абалонка для diff:"
+
+#
+#: settingsdialog.cpp:309
+#, kde-format
+msgid ""
+"When opening a sandbox from a &remote repository,\n"
+"start a File->Status command automatically"
+msgstr ""
+"Пры адкрыцці працоўнай копіі з аддаленага с&ховішча,\n"
+"каманда Файл->Стан запускаецца аўтаматычна"
+
+#
+#: settingsdialog.cpp:311
+#, kde-format
+msgid ""
+"When opening a sandbox from a &local repository,\n"
+"start a File->Status command automatically"
+msgstr ""
+"Пры адкрыцці працоўнай копіі з &лакальнага сховішча,\n"
+"каманда Файл->Статут запускаецца аўтаматычна"
+
+#
+#: settingsdialog.cpp:328
+#, kde-format
+msgid "Advanced"
+msgstr "Пашыраныя"
+
+#: settingsdialog.cpp:348
+#, kde-format
+msgid "Appearance"
+msgstr "Вонкавы выгляд"
+
+#: settingsdialog.cpp:351
+#, kde-format
+msgid "Fonts"
+msgstr "Шрыфты"
+
+#
+#: settingsdialog.cpp:354
+#, kde-format
+msgid "Font for &Protocol Window..."
+msgstr "Шр&ыфт для акна пратаколу..."
+
+#
+#: settingsdialog.cpp:356
+#, kde-format
+msgid "Font for A&nnotate View..."
+msgstr "Шрыфт для адлюстравання &анатацый..."
+
+#
+#: settingsdialog.cpp:358
+#, kde-format
+msgid "Font for D&iff View..."
+msgstr "Шрыфт для а&длюстравання адрозненняў..."
+
+#
+#: settingsdialog.cpp:360
+#, kde-format
+msgid "Font for ChangeLog View..."
+msgstr "Шрыфт для адлюстравання ChangeLog..."
+
+#
+#: settingsdialog.cpp:369
+#, kde-format
+msgid "Colors"
+msgstr "Колеры"
+
+#
+#: settingsdialog.cpp:372
+#, kde-format
+msgid "Conflict:"
+msgstr "Канфлікт:"
+
+#
+#: settingsdialog.cpp:376
+#, kde-format
+msgid "Diff change:"
+msgstr "Зменена адрозненняў:"
+
+#
+#: settingsdialog.cpp:380
+#, kde-format
+msgid "Local change:"
+msgstr "Лакальная змена:"
+
+#
+#: settingsdialog.cpp:384
+#, kde-format
+msgid "Diff insertion:"
+msgstr "Устаўка адрозненняў:"
+
+#
+#: settingsdialog.cpp:388
+#, kde-format
+msgid "Remote change:"
+msgstr "Аддаленая змена:"
+
+#
+#: settingsdialog.cpp:392
+#, kde-format
+msgid "Diff deletion:"
+msgstr "Выдаленне адрозненняў:"
+
+#
+#: settingsdialog.cpp:396
+#, kde-format
+msgid "Not in cvs:"
+msgstr "Не ў CVS:"
+
+#
+#: settingsdialog.cpp:417
+#, kde-format
+msgid "Split main window &horizontally"
+msgstr "Падзяліць галоўнае акно &гарызантальна"
+
+#
+#. i18n: ectx: property (text), widget (QLabel, timeoutLbl)
+#: settingsdialog_advanced.ui:32
+#, kde-format
+msgid "&Timeout after which a progress dialog appears (in ms):"
+msgstr "&Затрымка перад адлюстраваннем дыялогу стана выканання (у мс):"
+
+#
+#. i18n: ectx: property (text), widget (QLabel, compressionLbl)
+#: settingsdialog_advanced.ui:45
+#, kde-format
+msgid "Default compression &level:"
+msgstr "&Узровень сціску па змаўчанні:"
+
+#
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseSshAgent)
+#: settingsdialog_advanced.ui:58
+#, kde-format
+msgid "Utilize a running or start a new ssh-agent process"
+msgstr "Выкарыстаць выконваемы або запусціць новы працэс ssh-agent"
+
+#
+#: tagdialog.cpp:51
+#, kde-format
+msgid "CVS Delete Tag"
+msgstr "Выдаліць пазнаку CVS"
+
+#
+#: tagdialog.cpp:51
+#, kde-format
+msgid "CVS Tag"
+msgstr "Пазнака CVS "
+
+#
+#: tagdialog.cpp:71 tagdialog.cpp:92
+#, kde-format
+msgid "&Name of tag:"
+msgstr "&Імя пазнакі:"
+
+#
+#: tagdialog.cpp:101
+#, kde-format
+msgid "Create &branch with this tag"
+msgstr "Стварыць &галіну з гэтай пазнакі"
+
+#
+#: tagdialog.cpp:105
+#, kde-format
+msgid "&Force tag creation even if tag already exists"
+msgstr "&Усё роўна стварыць пазнаку, нават калі яна ўжо існуе"
+
+#
+#: tagdialog.cpp:145
+#, kde-format
+msgid "You must define a tag name."
+msgstr "Вы павінны вызначыць імя пазнакі."
+
+#
+#: tagdialog.cpp:153
+#, kde-format
+msgid ""
+"Tag must start with a letter and may contain letters, digits and the "
+"characters '-' and '_'."
+msgstr ""
+"Пазнакі павінны пачынацца з літары і ўтрымоўваць літары, лічбы і знакі '-' "
+"або '_'."
+
+#
+#: updatedialog.cpp:46
+#, kde-format
+msgid "CVS Update"
+msgstr "Аднаўленне CVS"
+
+#
+#: updatedialog.cpp:61
+#, kde-format
+msgid "Update to &branch: "
+msgstr "Аднавіць да &галіны: "
+
+#: updatedialog.cpp:80
+#, kde-format
+msgid "Update to &tag: "
+msgstr "Аднавіць да &пазнакі: "
+
+#
+#: updatedialog.cpp:98
+#, kde-format
+msgid "Update to &date ('yyyy-mm-dd'):"
+msgstr "Аднавіць да &даты ('гггг-мм-дд'):"
+
+#
+#: updateview.cpp:53
+#, kde-format
+msgid "File Name"
+msgstr "Імя файла"
+
+#
+#: updateview.cpp:54
+#, kde-format
+msgid "Tag/Date"
+msgstr "Пазнака/дата"
+
+#
+#: updateview.cpp:54
+#, kde-format
+msgid "Timestamp"
+msgstr "Часовая пазнака"
+
+#
+#: watchdialog.cpp:43
+#, kde-format
+msgid "CVS Watch Add"
+msgstr "Даданне назірання за CVS"
+
+#
+#: watchdialog.cpp:43
+#, kde-format
+msgid "CVS Watch Remove"
+msgstr "Выдаліць назіранне за CVS"
+
+#
+#: watchdialog.cpp:57
+#, kde-format
+msgid "Add watches for the following events:"
+msgstr "Назіраць за наступнымі падзеямі:"
+
+#
+#: watchdialog.cpp:58
+#, kde-format
+msgid "Remove watches for the following events:"
+msgstr "Больш не назіраць за наступнымі падзеямі:"
+
+#
+#: watchdialog.cpp:61
+#, kde-format
+msgid "&All"
+msgstr "&Усе"
+
+#
+#: watchdialog.cpp:66
+#, kde-format
+msgid "&Only:"
+msgstr "&Толькі:"
+
+#: watchdialog.cpp:75
+#, kde-format
+msgid "&Commits"
+msgstr "&Перадачы"
+
+#: watchdialog.cpp:79
+#, kde-format
+msgid "&Edits"
+msgstr "&Рэдагаванні"
+
+#: watchdialog.cpp:83
+#, kde-format
+msgid "&Unedits"
+msgstr "&Адмены рэдагавання"
+
+#
+#: watchersdialog.cpp:74 watchersdialog.cpp:80
+#, kde-format
+msgid "CVS Watchers"
+msgstr "Назіральнікі CVS"
+
+#
+#: watchersmodel.cpp:98
+#, kde-format
+msgid "Watcher"
+msgstr "Назіральнік"
+
+#: watchersmodel.cpp:100
+#, kde-format
+msgid "Edit"
+msgstr "Змяніць"
+
+#: watchersmodel.cpp:102
+#, kde-format
+msgid "Unedit"
+msgstr "Скасаваць рэдагаванне"
+
+#
+#: watchersmodel.cpp:104
+#, kde-format
+msgid "Commit"
+msgstr "Перадаць"
+
+#
+#~ msgid "&Overwrite"
+#~ msgstr "&Замяніць"
+
+#
+#~ msgid "Invokes the KDE help system with the Cervisia documentation"
+#~ msgstr "Выклік у даведкавай сістэме KDE дакументацыі па Cervisia"
+
+#
+#~ msgid "Opens the bug report dialog"
+#~ msgstr "Напісаць паведамленне аб памылцы"
+
+#
+#~ msgid "Displays the version number and copyright information"
+#~ msgstr "Паказаць інфармацыю аб нумары версіі і аўтарскіх правах"
+
+#
+#~ msgid "Displays the information about KDE and its version number"
+#~ msgstr "Паказаць інфармацыю аб KDE і нумары яго версіі"
+
+#
+#~ msgid "&Remove"
+#~ msgstr "&Выдаліць"
+
+#
+#~ msgctxt "to view something"
+#~ msgid "&View"
+#~ msgstr "&Паказаць"
+
+#
+#~ msgid "Copyright (c) 1999-2002 Bernd Gehrmann"
+#~ msgstr "Аўтарскія правы (c) 1999-2002 Bernd Gehrmann"
+
+#
+#~ msgid "Show All &Files"
+#~ msgstr "Пака&заць усе файлы"
+
+#
+#~ msgid "Show Unmodified Files"
+#~ msgstr "Паказаць не змененыя файлы"
+
+#
+#~ msgid "Show Removed Files"
+#~ msgstr "Паказаць выдаленыя файлы"
+
+#
+#~ msgid "Show Non-CVS Files"
+#~ msgstr "Паказаць файлы не з CVS"
+
+#
+#~ msgid "Show Empty Folders"
+#~ msgstr "Паказаць пустыя тэчкі"
+
+#
+#~ msgid "Fold Folder"
+#~ msgstr "Згарнуць тэчку"
+
+#
+#~ msgid ""
+#~ "Cervisia %1\n"
+#~ "(Using KDE %2)\n"
+#~ "\n"
+#~ "Copyright (c) 1999-2002\n"
+#~ "Bernd Gehrmann <bernd@mail.berlios.de>\n"
+#~ "\n"
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2 of the License, or\n"
+#~ "(at your option) any later version.\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "See the ChangeLog file for a list of contributors."
+#~ msgstr ""
+#~ "Cervisia %1\n"
+#~ "(у складзе KDE %2)\n"
+#~ "\n"
+#~ "Аўтарскія правы (c) 1999-2002\n"
+#~ "Бернд Герман (Bernd Gehrmann) <bernd@mail.berlios.de>\n"
+#~ "\n"
+#~ "Гэтая праграма распаўсюджваецца на ўмовах ліцэнзіі GPL v2.\n"
+#~ "Гэтая праграма распаўсюджваецца ў надзеі апынуцца карыснай, але\n"
+#~ "БЕЗ ЯКІХ БЫ ТО НІ БЫЛО ГАРАНТЫЙ, нават без гарантыі КАРЫСНАСЦІ \n"
+#~ "або АДПАВЕДНАСЦІ АСАБІСТАЙ МЭЦЕ.\n"
+#~ "Звярніцеся да файла ChangeLog, каб паглядзець імёны аўтараў."
+
+#
+#~ msgid "About Cervisia"
+#~ msgstr "Аб праграме Cervisia"
+
+#
+#~ msgid "File Type"
+#~ msgstr "Тып файла"
